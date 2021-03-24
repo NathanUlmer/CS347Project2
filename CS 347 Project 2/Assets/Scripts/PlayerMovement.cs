@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //Jump input
-        if (Input.GetButtonUp("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
