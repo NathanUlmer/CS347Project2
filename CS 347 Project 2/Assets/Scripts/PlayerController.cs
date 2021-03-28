@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 10;
     public int currentHealth;
 
     public HealthBarController healthBar;
@@ -21,11 +21,11 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown("e"))
         {
-            TakeDamage(20);
+            TakeDamage(2);
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);

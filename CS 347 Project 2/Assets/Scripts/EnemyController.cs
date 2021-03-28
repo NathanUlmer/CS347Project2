@@ -8,6 +8,9 @@ public class EnemyController : MonoBehaviour
 
     public float lookRadius = 10f;
 
+    public GameObject bulletPrefab;
+    private GameObject bullet;
+
     Transform target;
     NavMeshAgent agent;
 
@@ -31,8 +34,22 @@ public class EnemyController : MonoBehaviour
             //Enemy shoots when the player is in range
             if(distance <= agent.stoppingDistance)
             {
-                //Shoot at target
                 FaceTarget();
+                Ray ray = new Ray(transform.position, transform.forward);
+                RaycastHit hit;
+                if(Physics.SphereCast(ray, 0.1f, out hit))
+                {
+                    GameObject hitObject = hit.transform.gameObject;
+                    if (hitObject.GetComponent<PlayerController>())
+                    {
+                        if(bullet == null)
+                        {
+                            bullet = Instantiate(bulletPrefab) as GameObject;
+                            bullet.transform.position = transform.TransformPoint(Vector3.forward * 1.5f);
+                            bullet.transform.rotation = transform.rotation;
+                        }
+                    }
+                }
             }
         }
     }
