@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Transform))]
 public class Dimensions : MonoBehaviour
 {
-// Dimensions getters/setters
+    // Dimensions getters/setters
     private float mass = 0;
     [HideInInspector]
     public float Mass{
@@ -42,7 +42,7 @@ public class Dimensions : MonoBehaviour
         set{charge = value;}
     }
 
-// Required Objects
+    // Required Objects
     private Rigidbody rb;
     private Transform tf;
     GameObject player;
@@ -63,7 +63,6 @@ public class Dimensions : MonoBehaviour
     {
         // Update stuff related to Mass
         rb.mass = rb.mass + mass;
-        
 
         if(rb.mass<0.5){
             if(oldGrav == 0f) oldGrav = pc.gravity;
@@ -72,6 +71,7 @@ public class Dimensions : MonoBehaviour
             //rb.AddForce(new Vector3(0,0.1f/(0.4f-rb.mass),0));
             rb.useGravity = false;
         }
+
         else if(oldGrav!=0) {
             
 
