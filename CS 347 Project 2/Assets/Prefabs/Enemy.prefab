@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 8523595815073492923}
   - component: {fileID: 8523595815073492922}
   - component: {fileID: 8523595815073492902}
+  - component: {fileID: 2823434466117096709}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -355,6 +356,18 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 8523595813786955397}
   bulletPrefab: {fileID: 5149709604720099624, guid: 501de0ccd7ba43740a67c4845f3fa37d, type: 3}
+--- !u!114 &2823434466117096709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8523595815073492921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2f087267c44ff44b2ae1af11817dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8523595815208380912
 GameObject:
   m_ObjectHideFlags: 0
