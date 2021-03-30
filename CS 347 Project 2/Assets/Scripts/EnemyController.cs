@@ -46,7 +46,7 @@ public class EnemyController : MonoBehaviour
                 running = false;
                 Ray ray = new Ray(transform.position, transform.forward);
                 RaycastHit hit;
-                if(Physics.SphereCast(ray, 0.1f, out hit))
+                if(Physics.SphereCast(ray, .1f, out hit))
                 {
                     GameObject hitObject = hit.transform.gameObject;
                     if (hitObject.GetComponent<PlayerController>())
@@ -69,10 +69,10 @@ public class EnemyController : MonoBehaviour
         animate(running);
 
         //Debug inflict damage
-        if (Input.GetKeyDown("l"))
+        /*if (Input.GetKeyDown("l"))
         {
             TakeDamage(1);
-        }
+        }*/
     }
 
     //Face the player target
@@ -90,7 +90,7 @@ public class EnemyController : MonoBehaviour
         healthBar.SetHealth(currentHealth);
         
         //Destroy enemy with 0 health
-        if(currentHealth == 0)
+        if(currentHealth <= 0)
         {
             Destroy(this.gameObject);
         }

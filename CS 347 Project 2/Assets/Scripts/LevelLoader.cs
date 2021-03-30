@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
 
+    public string sceneOver = "Game Over";
+    public string sceneEnd = "End Scene";
+    public string sceneMain = "Main Scene";
+
     public Animator transition;
     public float transitionTime = 1f;
 
@@ -15,6 +19,16 @@ public class LevelLoader : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return) && SceneManager.GetActiveScene().buildIndex == 0)
         {
             LoadNextLevel();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return) && SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            SceneManager.LoadSceneAsync(sceneMain);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return) && SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            SceneManager.LoadSceneAsync(sceneMain);
         }
     }
 
