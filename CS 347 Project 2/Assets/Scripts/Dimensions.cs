@@ -7,35 +7,35 @@ using UnityEngine;
 public class Dimensions : MonoBehaviour
 {
 // Dimensions getters/setters
-    private float mass = 0;
+    private float mass = 0f;
     [HideInInspector]
     public float Mass{
         get{return mass;}
         set{mass = value;}
     }
     
-    private float length = 0;
+    private float length = 0f;
     [HideInInspector]
     public float Length{
         get{return length;}
         set{length = value;}
     }
 
-    private float time = 0;
+    private float timeDiff = 0f;
     [HideInInspector]
-    public float Time{
-        get{return time;}
-        set{time = value;}
+    public float time{
+        get{return timeDiff;}
+        set{ timeDiff = value;}
     }
 
-    private float temp = 0;
+    private float temp = 0f;
     [HideInInspector]
     public float Temp{
         get{return temp;}
         set{temp = value;}
     }
 
-    private float charge = 0;
+    private float charge = 0f;
     [HideInInspector]
     public float Charge{
         get{return charge;}
@@ -48,6 +48,8 @@ public class Dimensions : MonoBehaviour
     GameObject player;
     PlayerMovement pc;
     public float oldGrav;
+    private float fixedDeltaTime;
+    public float maxMass;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,12 +58,26 @@ public class Dimensions : MonoBehaviour
         player = GameObject.Find("PlayerObject");
         pc = this.GetComponent<PlayerMovement>();
         oldGrav = 0.0f;
+        this.fixedDeltaTime =Time.fixedDeltaTime;
+        this.maxMass = 10;
+    }
+
+    void Update()
+    {
+
+        // Update time stuff
+        if(Time.timeScale + timeDiff >= 0f) {
+            Time.timeScale += timeDiff;
+            Time.fixedDeltaTime = this.fixedDeltaTime*Time.timeScale;
+        }
+        if(timeDiff!=0f) timeDiff = 0f;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         // Update stuff related to Mass
+        if(rb.mass + mass >= 0f && rb.mass + mass < maxMass)
         rb.mass = rb.mass + mass;
         
 
@@ -84,8 +100,9 @@ public class Dimensions : MonoBehaviour
         }
         mass = 0f;
         // Update Length stuff
+        this.gameObject.transform.localScale += new Vector3(length, length,length);
+        if(length!=0) length =0;
 
-        // Update time stuff
 
         // Update temp stuff
 

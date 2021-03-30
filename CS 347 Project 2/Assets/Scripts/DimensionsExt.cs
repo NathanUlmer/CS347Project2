@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Transform))]
-public class Dimensions2 : MonoBehaviour
+public class DimensionsExt : MonoBehaviour
 {
 // Dimensions getters/setters
     private float mass = 0;
@@ -21,11 +21,11 @@ public class Dimensions2 : MonoBehaviour
         set{length = value;}
     }
 
-    private float time = 0;
+    private float timeDiff = 0;
     [HideInInspector]
-    public float Time{
-        get{return time;}
-        set{time = value;}
+    public float time{
+        get{return timeDiff;}
+        set{timeDiff = value;}
     }
 
     private float temp = 0;
@@ -63,10 +63,16 @@ public class Dimensions2 : MonoBehaviour
         mass = 0;
 
         // Update Length stuff
+        
+        this.gameObject.transform.localScale += new Vector3(length, length,length);
+        if(length!=0) length =0;
 
         // Update time stuff
+        
 
         // Update temp stuff
+        
+
 
         // Update charge stuff
     }

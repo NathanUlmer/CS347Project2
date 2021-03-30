@@ -20,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     float turnSmoothVelocity;
     Vector3 velocity;
     bool isGrounded;
-
+    public bool isFloating;
+    public bool isJumping = false;
     // Update is called once per frame
     void Update()
     {
@@ -33,11 +34,13 @@ public class PlayerMovement : MonoBehaviour
 
         //Jump input
         if (Input.GetButtonUp("Jump") && isGrounded)
-        {
+        {   
+            isJumping = true;
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
+        } else if(isGrounded) isJumping = false;
 
         //Gravitational force
+        
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity);
 
