@@ -15,7 +15,6 @@ public class PlayerMovement : MonoBehaviour
     public float gravity = -0.1f;
     public float jumpHeight = 0.01f;
     public float groundDis = 0.1f;
-    public bool isFloating;
 
     //Private variables
     float turnSmoothVelocity;
