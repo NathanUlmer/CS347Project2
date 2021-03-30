@@ -10,6 +10,7 @@ public class PlayerDimensionController : MonoBehaviour
     public float hitDistance = 30f;
     private GameObject thingLookingAt;
     private GameObject lastLookedAt;
+    private GameObject lastGrabbed;
     public Camera camera;
     public string LengthAbility;
     public string GrabAbility;
@@ -38,6 +39,7 @@ public class PlayerDimensionController : MonoBehaviour
     private int abilityDir;
     public Material OriginalMaterial;
     public Material hitMaterial;
+    public ParticleSystem mParicles;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,6 +59,8 @@ public class PlayerDimensionController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
         // Check input to update spell queue
 
         if(Input.GetKey(LengthAbility))
@@ -120,14 +124,14 @@ public class PlayerDimensionController : MonoBehaviour
         // Record distance to object
        // Debug.Log("TEST1");
         if(hit.collider!=null){
-            Debug.Log(hit.collider.gameObject.GetComponent<DimensionsExt>());
+           // Debug.Log(hit.collider.gameObject.GetComponent<DimensionsExt>());
         }
 
         if(hit.collider!=null &&hit.collider.gameObject.GetComponent<DimensionsExt>())
         {
             this.thingLookingAt = hit.collider.gameObject;
             this.lastLookedAt = this.thingLookingAt;
-            Debug.Log(hit.collider.gameObject);
+            //Debug.Log(hit.collider.gameObject);
             if(OriginalMaterial == null) {
                 //Debug.Log("SET MATERIAL");
                 OriginalMaterial = this.thingLookingAt.GetComponent<Renderer>().material;
@@ -139,6 +143,7 @@ public class PlayerDimensionController : MonoBehaviour
 
             if(Input.GetKeyDown(GrabAbility) || Input.GetButtonDown("Fire1"))
             {
+                this.lastGrabbed = this.lastLookedAt;
                 var trans = hit.collider.gameObject.GetComponent<Transform>();
                 var mtrans = this.GetComponent<Transform>();
                 trans.SetParent(mtrans);
@@ -154,39 +159,67 @@ public class PlayerDimensionController : MonoBehaviour
                 hit.collider.gameObject.layer = 2;
 
             }
+
+            if(selectedAbility != Abilities.None)
+            {
+                GameObject hand = GameObject.Find("Bone.020");
+                
+                mParicles.transform.forward = transform.forward;
+                if(abilityDir < 0){
+                    mParicles.transform.position = hit.collider.gameObject.GetComponent<Transform>().position;
+                    mParicles.startSpeed = -5;}
+                else{
+                    mParicles.transform.position = hand.transform.position;
+                    mParicles.startSpeed = 5;
+                } 
+                mParicles.Emit(5);
+
+                
+            }
+            else mParicles.Stop();
+
             switch(selectedAbility)
             {
                 case Abilities.Mass:
                     //Debug.Log("USE MASS");
-                    if(dim.Mass > MassTransferAmount && mdim.Mass > MassTransferAmount){  
-                    dim.Mass = MassTransferAmount*abilityDir;
-                    mdim.Mass = MassTransferAmount*abilityDir*-1;
-                    }
+                    if((abilityDir>0 && mdim.rb.mass > MassTransferAmount) ||(abilityDir<0 && mdim.rb.mass < mdim.maxMass + MassTransferAmount) ) {
+                        dim.Mass = MassTransferAmount*abilityDir;
+                        mdim.Mass = MassTransferAmount*abilityDir*-1;
+                     }
+                    
                     break;
                 case Abilities.Length:
                     //Debug.Log("USE LENGTH");   
-                    
-                    dim.Length = LengthTransferAmount*abilityDir;
-                    mdim.Length = LengthTransferAmount*abilityDir*-1;
+                    if((abilityDir>0 && mdim.tf.localScale.x > LengthTransferAmount) ||(abilityDir<0 && mdim.tf.localScale.x < mdim.maxLength + LengthTransferAmount) ) {
+                        dim.Length = LengthTransferAmount*abilityDir;
+                        mdim.Length = LengthTransferAmount*abilityDir*-1;
+                    }
                     break;
 
                 case Abilities.Time:
                     //Debug.Log("USE TIME");  
                     
-                    dim.time = TimeTransferAmount*abilityDir;
-                    mdim.time = TimeTransferAmount*abilityDir*-1;
+
+                        dim.time = TimeTransferAmount*abilityDir;
+                        mdim.time = TimeTransferAmount*abilityDir*-1;
+                    
                     break;
 
                 case Abilities.Temp:
                     //Debug.Log("USE TEMP");  
-                    dim.Temp = TempTransferAmount*abilityDir;
-                    mdim.Temp = TempTransferAmount*abilityDir*-1;
+                    if((abilityDir>0 && mdim.Temp > -mdim.maxTemp + TempTransferAmount) ||(abilityDir<0 && mdim.Temp < mdim.maxTemp +  TempTransferAmount) ) {
+                        Debug.Log("ChangeTemp");
+                        dim.Temp = TempTransferAmount*abilityDir;
+                        mdim.Temp = TempTransferAmount*abilityDir*-1;
+                    }
                     break;
 
                 case Abilities.Charge:
                     //Debug.Log("USE Charge");  
-                    dim.Charge = ChargeTransferAmount*abilityDir;
-                    mdim.Charge = ChargeTransferAmount*abilityDir*-1;
+                    if((abilityDir>0 && mdim.Charge > -mdim.maxCharge + ChargeTransferAmount) ||(abilityDir<0 && mdim.Charge < mdim.maxCharge + ChargeTransferAmount) ) {
+                        dim.Charge = ChargeTransferAmount*abilityDir;
+                        mdim.Charge = ChargeTransferAmount*abilityDir*-1;
+                    }
                     break;
                 case Abilities.None:
                     break;
@@ -197,26 +230,26 @@ public class PlayerDimensionController : MonoBehaviour
         }
 
 
-        if((Input.GetKeyUp(GrabAbility) || Input.GetButtonUp("Fire1")) && this.lastLookedAt !=null)
+        if((Input.GetKeyUp(GrabAbility) || Input.GetButtonUp("Fire1")) && this.lastGrabbed !=null)
         {
-            var trans = this.lastLookedAt.GetComponent<Transform>();
+            var trans = this.lastGrabbed.GetComponent<Transform>();
             var mtrans = this.GetComponent<Transform>();
             trans.SetParent(null);
             trans.position =  trans.position + new Vector3(0,0,0);
             //this.lastLookedAt.GetComponent<Rigidbody>().
             //trans.localPosition = Vector3.zero;
-            Rigidbody llRb = this.lastLookedAt.GetComponent<Rigidbody>();
+            Rigidbody llRb = this.lastGrabbed.GetComponent<Rigidbody>();
             llRb.constraints = RigidbodyConstraints.None;
             llRb.isKinematic = false;
             llRb.velocity = transform.forward * 10;
-            llRb.velocity += transform.up * 5;
+            llRb.velocity += transform.up * 1.2f;
             
             
             llRb.angularVelocity = Vector3.zero;
             llRb.ResetInertiaTensor();
             llRb.useGravity = true;
-            this.lastLookedAt.layer = 0;
-            this.lastLookedAt = null;
+            this.lastGrabbed.layer = 8;
+            this.lastGrabbed = null;
 
 
         }
@@ -229,8 +262,7 @@ public class PlayerDimensionController : MonoBehaviour
         }
 
 
-
-
+        
 
 
 

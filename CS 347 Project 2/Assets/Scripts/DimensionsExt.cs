@@ -43,8 +43,8 @@ public class DimensionsExt : MonoBehaviour
     }
 
 // Required Objects
-    private Rigidbody rb;
-    private Transform tf;
+    public Rigidbody rb;
+    public Transform tf;
     GameObject player;
 
     // Start is called before the first frame update

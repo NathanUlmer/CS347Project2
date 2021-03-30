@@ -32,24 +32,30 @@ public class Dimensions : MonoBehaviour
     [HideInInspector]
     public float Temp{
         get{return temp;}
-        set{temp = value;}
+        set{temp += value;}
     }
 
     private float charge = 0f;
     [HideInInspector]
     public float Charge{
         get{return charge;}
-        set{charge = value;}
+        set{charge += value;}
     }
 
+
+    
 // Required Objects
-    private Rigidbody rb;
-    private Transform tf;
+    public Rigidbody rb;
+    public Transform tf;
     GameObject player;
     PlayerMovement pc;
+    PlayerController ppc;
     public float oldGrav;
     private float fixedDeltaTime;
     public float maxMass;
+    public float maxLength;
+    public float maxTemp;
+    public float maxCharge;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,16 +63,20 @@ public class Dimensions : MonoBehaviour
         tf = this.GetComponent<Transform>();
         player = GameObject.Find("PlayerObject");
         pc = this.GetComponent<PlayerMovement>();
+        ppc = this.GetComponent<PlayerController>();
         oldGrav = 0.0f;
         this.fixedDeltaTime =Time.fixedDeltaTime;
         this.maxMass = 10;
+        this.maxLength = 2;
+        this.maxTemp = 10;
+        this.maxCharge = 10;
     }
 
     void Update()
     {
 
         // Update time stuff
-        if(Time.timeScale + timeDiff >= 0f) {
+        if(Time.timeScale + timeDiff >= 0.1f && Time.timeScale + timeDiff <= 4f) {
             Time.timeScale += timeDiff;
             Time.fixedDeltaTime = this.fixedDeltaTime*Time.timeScale;
         }
@@ -107,6 +117,12 @@ public class Dimensions : MonoBehaviour
         // Update temp stuff
 
         // Update charge stuff
+
+        //Debug.Log(rb.mass);
+        //Debug.Log(tf.localScale.x);
+        //Debug.Log(timeDiff);
+        //Debug.Log(Charge);
+        Debug.Log(Mass);
     }
 
     
