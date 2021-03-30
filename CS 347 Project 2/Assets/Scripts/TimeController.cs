@@ -9,9 +9,10 @@ public class TimeController : MonoBehaviour
     public static TimeController instance;
 
     public Text timecounter;
-    private TimeSpan timePlaying;
+    private static TimeSpan timePlaying;
     private bool timeGoing;
-    private float elapsedTime;
+    public float elapsedTime;
+    public string timePlayingstr;
 
     private void Awake()
     {
@@ -21,7 +22,11 @@ public class TimeController : MonoBehaviour
     void Start()
     {
         timecounter.text = "Time 00:00.00";
-        BeginTime();
+        if(timePlaying != null)
+        {
+            timePlayingstr = "Time: " + timePlaying.ToString("mm':'ss'.'ff");
+            timecounter.text = timePlayingstr;
+        }
     }
 
     public void BeginTime()
@@ -42,7 +47,7 @@ public class TimeController : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             timePlaying = TimeSpan.FromSeconds(elapsedTime);
-            string timePlayingstr = "Time: " + timePlaying.ToString("mm':'ss'.'ff");
+            timePlayingstr = "Time: " + timePlaying.ToString("mm':'ss'.'ff");
             timecounter.text = timePlayingstr;
 
             yield return null;

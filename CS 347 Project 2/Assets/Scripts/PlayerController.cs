@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        TimeController.instance.BeginTime();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
     {
         if (currentHealth <= 0)
         {
+            TimeController.instance.EndTime();
             SceneManager.LoadSceneAsync(sceneOver);
         }
         //Debug inflict damage

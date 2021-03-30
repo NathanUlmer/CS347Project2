@@ -20,8 +20,8 @@ public class FinishLineController : MonoBehaviour
         PlayerController player = other.GetComponent<PlayerController>();
         if (player != null)
         {
-            SceneManager.LoadSceneAsync(sceneEnd);
             TimeController.instance.EndTime();
+            SceneManager.LoadSceneAsync(sceneEnd);
         }
     }
 }
