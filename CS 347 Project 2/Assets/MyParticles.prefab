@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8377791662789207028}
   - component: {fileID: 3182761903399964126}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: MyParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,8 +25,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8476610982921915979}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.6069344, y: 0.12, z: 2}
+  m_LocalRotation: {x: 0, y: 0.9214335, z: 0, w: -0.38853616}
+  m_LocalPosition: {x: 0.14953974, y: 2.073092, z: 15.084719}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -168,7 +168,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4.38
+      scalar: 5
       minScalar: 5
       maxCurve:
         serializedVersion: 2

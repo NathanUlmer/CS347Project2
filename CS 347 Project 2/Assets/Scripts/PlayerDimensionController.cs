@@ -55,7 +55,26 @@ public class PlayerDimensionController : MonoBehaviour
         abilityDir = 1;
         selectedAbility = Abilities.None;
     }
+    void showParticles(RaycastHit hit)
+    {
+            if(selectedAbility != Abilities.None)
+            {
+                GameObject hand = GameObject.Find("Bone.020");
+                
+                mParicles.transform.forward = transform.forward;
+                if(abilityDir < 0){
+                    mParicles.transform.position = hit.collider.gameObject.GetComponent<Transform>().position;
+                    mParicles.startSpeed = -5;}
+                else{
+                    mParicles.transform.position = hand.transform.position;
+                    mParicles.startSpeed = 5;
+                } 
+                mParicles.Emit(5);
 
+                
+            }
+            else mParicles.Stop();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -160,23 +179,7 @@ public class PlayerDimensionController : MonoBehaviour
 
             }
 
-            if(selectedAbility != Abilities.None)
-            {
-                GameObject hand = GameObject.Find("Bone.020");
-                
-                mParicles.transform.forward = transform.forward;
-                if(abilityDir < 0){
-                    mParicles.transform.position = hit.collider.gameObject.GetComponent<Transform>().position;
-                    mParicles.startSpeed = -5;}
-                else{
-                    mParicles.transform.position = hand.transform.position;
-                    mParicles.startSpeed = 5;
-                } 
-                mParicles.Emit(5);
 
-                
-            }
-            else mParicles.Stop();
 
             switch(selectedAbility)
             {
@@ -185,6 +188,7 @@ public class PlayerDimensionController : MonoBehaviour
                     if((abilityDir>0 && mdim.rb.mass > MassTransferAmount) ||(abilityDir<0 && mdim.rb.mass < mdim.maxMass + MassTransferAmount) ) {
                         dim.Mass = MassTransferAmount*abilityDir;
                         mdim.Mass = MassTransferAmount*abilityDir*-1;
+                        showParticles(hit);
                      }
                     
                     break;
@@ -193,6 +197,7 @@ public class PlayerDimensionController : MonoBehaviour
                     if((abilityDir>0 && mdim.tf.localScale.x > LengthTransferAmount) ||(abilityDir<0 && mdim.tf.localScale.x < mdim.maxLength + LengthTransferAmount) ) {
                         dim.Length = LengthTransferAmount*abilityDir;
                         mdim.Length = LengthTransferAmount*abilityDir*-1;
+                        showParticles(hit);
                     }
                     break;
 
@@ -202,6 +207,7 @@ public class PlayerDimensionController : MonoBehaviour
 
                         dim.time = TimeTransferAmount*abilityDir;
                         mdim.time = TimeTransferAmount*abilityDir*-1;
+                        showParticles(hit);
                     
                     break;
 
@@ -211,6 +217,7 @@ public class PlayerDimensionController : MonoBehaviour
                         Debug.Log("ChangeTemp");
                         dim.Temp = TempTransferAmount*abilityDir;
                         mdim.Temp = TempTransferAmount*abilityDir*-1;
+                        showParticles(hit);
                     }
                     break;
 
@@ -219,6 +226,7 @@ public class PlayerDimensionController : MonoBehaviour
                     if((abilityDir>0 && mdim.Charge > -mdim.maxCharge + ChargeTransferAmount) ||(abilityDir<0 && mdim.Charge < mdim.maxCharge + ChargeTransferAmount) ) {
                         dim.Charge = ChargeTransferAmount*abilityDir;
                         mdim.Charge = ChargeTransferAmount*abilityDir*-1;
+                        showParticles(hit);
                     }
                     break;
                 case Abilities.None:
