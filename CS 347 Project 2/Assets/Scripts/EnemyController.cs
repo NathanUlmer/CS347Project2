@@ -9,10 +9,11 @@ public class EnemyController : MonoBehaviour
     public float lookRadius = 10f;
     public int maxHealth = 10;
     public int currentHealth;
-
+    public bool running = true;
     public HealthBarController healthBar;
     public GameObject bulletPrefab;
     private GameObject bullet;
+    private Animator anim;
 
     Transform target;
     NavMeshAgent agent;
@@ -24,6 +25,7 @@ public class EnemyController : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -34,12 +36,14 @@ public class EnemyController : MonoBehaviour
         //Enemy approaches when they see the player
         if(distance <= lookRadius)
         {
+            running = true;
             agent.SetDestination(target.position);
 
             //Enemy shoots when the player is in range
             if(distance <= agent.stoppingDistance)
             {
                 FaceTarget();
+                running = false;
                 Ray ray = new Ray(transform.position, transform.forward);
                 RaycastHit hit;
                 if(Physics.SphereCast(ray, 0.1f, out hit))
@@ -57,6 +61,12 @@ public class EnemyController : MonoBehaviour
                 }
             }
         }
+        else
+        {
+            running = false;
+        }
+
+        animate(running);
 
         //Debug inflict damage
         if (Input.GetKeyDown("l"))
@@ -91,5 +101,22 @@ public class EnemyController : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, lookRadius);
+    }
+
+    //animates the enemy
+    void animate(bool running)
+    {
+        if(running)
+        {
+            anim.CrossFade("CurrentlyRunning", .3f);
+            anim.SetBool("isRunning", true);
+            anim.SetBool("isStanding", false);
+        }
+        else
+        {
+            anim.CrossFade("Jump", .3f);
+            anim.SetBool("isRunning", false);
+         anim.SetBool("isStanding", true);
+        }
     }
 }
