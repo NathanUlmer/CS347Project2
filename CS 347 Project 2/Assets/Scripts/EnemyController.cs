@@ -7,7 +7,10 @@ public class EnemyController : MonoBehaviour
 {
 
     public float lookRadius = 10f;
+    public int maxHealth = 10;
+    public int currentHealth;
 
+    public HealthBarController healthBar;
     public GameObject bulletPrefab;
     private GameObject bullet;
 
@@ -19,6 +22,8 @@ public class EnemyController : MonoBehaviour
     {
         target = PlayerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
@@ -52,6 +57,12 @@ public class EnemyController : MonoBehaviour
                 }
             }
         }
+
+        //Debug inflict damage
+        if (Input.GetKeyDown("l"))
+        {
+            TakeDamage(1);
+        }
     }
 
     //Face the player target
@@ -60,6 +71,19 @@ public class EnemyController : MonoBehaviour
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0f, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+    }
+
+    //Inflict damage to enemy
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+        
+        //Destroy enemy with 0 health
+        if(currentHealth == 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     //Displays look radius in the editor

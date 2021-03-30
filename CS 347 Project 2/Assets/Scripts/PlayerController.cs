@@ -19,12 +19,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Debug inflict damage
         if (Input.GetKeyDown("e"))
         {
             TakeDamage(2);
         }
     }
 
+    //Damage handler
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
