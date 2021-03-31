@@ -61,6 +61,8 @@ public class PlayerDimensionController : MonoBehaviour
     {
 
 
+
+
         // Check input to update spell queue
 
         if(Input.GetKey(LengthAbility))
@@ -127,10 +129,48 @@ public class PlayerDimensionController : MonoBehaviour
            // Debug.Log(hit.collider.gameObject.GetComponent<DimensionsExt>());
         }
 
+
+        if((Input.GetKeyUp(GrabAbility) || Input.GetButtonUp("Fire1")) && this.lastGrabbed !=null)
+        {
+            var trans = this.lastGrabbed.GetComponent<Transform>();
+            var mtrans = this.GetComponent<Transform>();
+            trans.SetParent(null);
+            trans.position =  trans.position + new Vector3(0,0,0);
+            //this.lastLookedAt.GetComponent<Rigidbody>().
+            //trans.localPosition = Vector3.zero;
+            Rigidbody llRb = this.lastGrabbed.GetComponent<Rigidbody>();
+            llRb.constraints = RigidbodyConstraints.None;
+            llRb.isKinematic = false;
+            llRb.velocity = camera.transform.forward * 10;
+            llRb.velocity += transform.up * 1f;
+            
+            
+            llRb.angularVelocity = Vector3.zero;
+            llRb.ResetInertiaTensor();
+            llRb.useGravity = true;
+            this.lastGrabbed.layer = 8;
+            this.lastGrabbed = null;
+            
+
+        }
+
+        if(this.lastLookedAt !=null && this.thingLookingAt != this.lastLookedAt && OriginalMaterial != null)
+        {
+            //Debug.Log("TRYING TO CHANGE MAT");
+            this.lastLookedAt.GetComponent<Renderer>().material = OriginalMaterial;
+            OriginalMaterial = null;
+            this.lastLookedAt = null;
+        }
+
+
+
         if(hit.collider!=null &&hit.collider.gameObject.GetComponent<DimensionsExt>())
         {
             this.thingLookingAt = hit.collider.gameObject;
-            this.lastLookedAt = this.thingLookingAt;
+            if(lastLookedAt == null) {
+                
+                this.lastLookedAt = this.thingLookingAt;
+            }
             //Debug.Log(hit.collider.gameObject);
             if(OriginalMaterial == null) {
                 //Debug.Log("SET MATERIAL");
@@ -230,36 +270,7 @@ public class PlayerDimensionController : MonoBehaviour
         }
 
 
-        if((Input.GetKeyUp(GrabAbility) || Input.GetButtonUp("Fire1")) && this.lastGrabbed !=null)
-        {
-            var trans = this.lastGrabbed.GetComponent<Transform>();
-            var mtrans = this.GetComponent<Transform>();
-            trans.SetParent(null);
-            trans.position =  trans.position + new Vector3(0,0,0);
-            //this.lastLookedAt.GetComponent<Rigidbody>().
-            //trans.localPosition = Vector3.zero;
-            Rigidbody llRb = this.lastGrabbed.GetComponent<Rigidbody>();
-            llRb.constraints = RigidbodyConstraints.None;
-            llRb.isKinematic = false;
-            llRb.velocity = transform.forward * 10;
-            llRb.velocity += transform.up * 1.2f;
-            
-            
-            llRb.angularVelocity = Vector3.zero;
-            llRb.ResetInertiaTensor();
-            llRb.useGravity = true;
-            this.lastGrabbed.layer = 8;
-            this.lastGrabbed = null;
 
-
-        }
-
-        if(this.lastLookedAt !=null && this.thingLookingAt == null && OriginalMaterial != null)
-        {
-            //Debug.Log("TRYING TO CHANGE MAT");
-            this.lastLookedAt.GetComponent<Renderer>().material = OriginalMaterial;
-            OriginalMaterial = null;
-        }
 
 
         
