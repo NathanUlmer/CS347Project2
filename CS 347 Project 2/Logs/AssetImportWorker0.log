@@ -1,357 +1,57 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16268 MB
+OS: 'Windows 10 Home; OS build 19041.867; Version 2004; 64bit' Language: 'en' Physical Memory: 16337 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity Hub\Unity\2020.2.3f1\Editor\Unity.exe
+D:\Unity Game Engine\2020.2.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2
+C:/Users/Matt/Documents/GitHub/CS347Project2/CS 347 Project 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64554
-Successfully changed project path to: C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2
-C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2
+50548
+Successfully changed project path to: C:/Users/Matt/Documents/GitHub/CS347Project2/CS 347 Project 2
+C:/Users/Matt/Documents/GitHub/CS347Project2/CS 347 Project 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2/Assets
+[Subsystems] Discovering subsystems at path D:/Unity Game Engine/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Matt/Documents/GitHub/CS347Project2/CS 347 Project 2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
     Vendor:   
-    VRAM:     8082 MB
-    Driver:   27.21.14.6079
+    VRAM:     2987 MB
+    Driver:   27.21.14.6192
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Mono path[0] = 'D:/Unity Game Engine/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Game Engine/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Game Engine/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001491 seconds.
+Register platform support module: D:/Unity Game Engine/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001247 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 74.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.959 seconds
+- Completed reload, in  1.187 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002186 seconds.
+Registered in 0.001034 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278E8D6D040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5718A20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E57BF9F0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E57BF9F0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5051EC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5358220 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9755010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5358220 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E90BC010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5358220 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9A04E20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5051EC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5051EC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E90E1E20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1259 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.4 MB.
-System memory in use after: 63.4 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1702.
-Total: 3.266200 ms (FindLiveObjects: 0.413000 ms CreateObjectMapping: 0.188900 ms MarkObjects: 2.519700 ms  DeleteObjects: 0.142600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Main Scene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748a80df251aa103d487f151bc1957e9') in 0.019095 seconds
-  Import took 0.021697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.881536 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ecac636115af811c3fd0da1ad7e84a') in 0.167281 seconds
-  Import took 0.171167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Prefabs/Enemy.prefab
-  artifactKey: Guid(81c4dba75dcf19b4fb033ce2d9cfa3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy.prefab using Guid(81c4dba75dcf19b4fb033ce2d9cfa3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2912cb505fd9256858dc35ca58403a77') in 0.160657 seconds
-  Import took 0.165362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Prefabs/Level Loader.prefab
-  artifactKey: Guid(d76c08380d78f884082245705eac5402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Level Loader.prefab using Guid(d76c08380d78f884082245705eac5402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ed7b4032881e0c62315964dde13c27') in 0.015101 seconds
-  Import took 0.019224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Prefabs/Desk.prefab
-  artifactKey: Guid(4fefc6a104b050045bc24601f4e54992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Desk.prefab using Guid(4fefc6a104b050045bc24601f4e54992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe159cc4f7ba7c7efad62bb8e46a44c') in 0.045728 seconds
-  Import took 0.050720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Prefabs/Room Light.prefab
-  artifactKey: Guid(e13bcf0e6e059174e826a838c77e2398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Room Light.prefab using Guid(e13bcf0e6e059174e826a838c77e2398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12ad08186e5d55bd25a18af0f2a93c4') in 0.038361 seconds
-  Import took 0.043103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.472150 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(1202503a6dbaf6546b81f4c380e4cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(1202503a6dbaf6546b81f4c380e4cef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a84f8261220b8f8fde1368915d1842') in 0.014895 seconds
-  Import took 0.023627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.395921 seconds.
-  path: Assets/Music/music_zapsplat_game_music_action_dark_sniper_beats_electronic_millitary_018 (1).mp3
-  artifactKey: Guid(a9fc5affc78e15e458a7295e4ba10914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Music/music_zapsplat_game_music_action_dark_sniper_beats_electronic_millitary_018 (1).mp3 using Guid(a9fc5affc78e15e458a7295e4ba10914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74d2871cc95981b8b148f3485c16768') in 0.110665 seconds
-  Import took 0.114470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.468391 seconds.
-  path: Assets/Prefabs/Sound Mixer.mixer
-  artifactKey: Guid(c18612bb6115b5943b0e3fdd5b566d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sound Mixer.mixer using Guid(c18612bb6115b5943b0e3fdd5b566d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce87f9c13451e230c6d6042cf2b4ff5') in 0.015519 seconds
-  Import took 0.019514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001378 seconds.
-  path: Assets/Prefabs/Sound Mixer.mixer
-  artifactKey: Guid(c18612bb6115b5943b0e3fdd5b566d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sound Mixer.mixer using Guid(c18612bb6115b5943b0e3fdd5b566d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce87f9c13451e230c6d6042cf2b4ff5') in 0.003454 seconds
-  Import took 0.006877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.150097 seconds.
-  path: Assets/Models/human.blend
-  artifactKey: Guid(6e2b548447ee04441a731c99747db706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/human.blend using Guid(6e2b548447ee04441a731c99747db706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af617ebf7ac5acce82d31af3bb179103') in 0.217313 seconds
-  Import took 0.225164 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/Models/player2.fbx
-  artifactKey: Guid(8d841a90f85256a41bb89da35aab4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/player2.fbx using Guid(8d841a90f85256a41bb89da35aab4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59c4f3a1f7e85f1732c189221175da9') in 0.076134 seconds
-  Import took 0.079949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.194261 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daf0a802677b61fe32d7f83d85f7174') in 0.013935 seconds
-  Import took 0.018013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008836 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daf0a802677b61fe32d7f83d85f7174') in 0.023484 seconds
-  Import took 0.030867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.380934 seconds.
-  path: Assets/SFx/smartsound_WEAPONS_REVOLVER_Shot_44Cal_Remington_1m_02 (1).mp3
-  artifactKey: Guid(7159c880d96cf6840b94f72d8d434fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFx/smartsound_WEAPONS_REVOLVER_Shot_44Cal_Remington_1m_02 (1).mp3 using Guid(7159c880d96cf6840b94f72d8d434fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55f3653dc23ea97c03c79007927eb02') in 0.025508 seconds
-  Import took 0.029942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/SFx/zapsplat_foley_sandal_flip_flop_fingle_hard_footstep_on_hard_ground_009_61293.mp3
-  artifactKey: Guid(640ff8b769989a54fa3ae979b0c6c409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFx/zapsplat_foley_sandal_flip_flop_fingle_hard_footstep_on_hard_ground_009_61293.mp3 using Guid(640ff8b769989a54fa3ae979b0c6c409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8acd7339f228fa2fa5e501d37b6431') in 0.039021 seconds
-  Import took 0.044710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.238913 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ceb4c5ad74a05d4992b45c5e47d1f23') in 0.016713 seconds
-  Import took 0.021034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.444230 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb89e899977e8572d535adda505b3af5') in 0.022183 seconds
-  Import took 0.027989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001166 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb89e899977e8572d535adda505b3af5') in 0.022255 seconds
-  Import took 0.027418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.634289 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07892f0370cb7109aaf685e73e35ea5') in 0.017079 seconds
-  Import took 0.021498 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010823 seconds.
-  path: Assets/Prefabs/Bullet.prefab
-  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07892f0370cb7109aaf685e73e35ea5') in 0.015649 seconds
-  Import took 0.020078 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000836 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278EB015030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A59FCB7B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E4EC2020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E4EC2020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A59FB91C0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E563ABC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9268010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E4CD6020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5608010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E562DE20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E50FD0A0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E514BC60 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5031EA0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1754.
-Total: 1.784800 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.532200 ms  DeleteObjects: 0.059000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000892 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278E5153550 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E56C49E0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAA90030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAA90030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9A05C20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E56AF010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E957F020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAA90030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EC395020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E56AF010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E51DB050 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9A05C20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EA7A5010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -359,152 +59,342 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.028 seconds
+- Completed reload, in  1.248 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
+Unloading 1259 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.3 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1756.
-Total: 3.269200 ms (FindLiveObjects: 0.263300 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.864400 ms  DeleteObjects: 0.064400 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 2.220900 ms (FindLiveObjects: 0.150300 ms CreateObjectMapping: 0.051200 ms MarkObjects: 1.936100 ms  DeleteObjects: 0.081700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/LevelLoader.cs
+  artifactKey: Guid(a6b5c5485f1d6bd44883e1600de722da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelLoader.cs using Guid(a6b5c5485f1d6bd44883e1600de722da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03fb3b9c51869b63d692d43a21cdf3b') in 0.120649 seconds
+  Import took 0.123565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.549052 seconds.
+  path: Assets/Scripts/TimeController.cs
+  artifactKey: Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeController.cs using Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a0716d31c1845778c225f9d2407be8') in 0.009367 seconds
+  Import took 0.011983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.830723 seconds.
+  path: Assets/Scripts/TimeController.cs
+  artifactKey: Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeController.cs using Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba32a7914810981076caa27a74079e1') in 0.003813 seconds
+  Import took 0.006624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.428388 seconds.
+  path: Assets/Scripts/TimeController.cs
+  artifactKey: Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeController.cs using Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780f193434a46dc45986362aac5bc961') in 0.004077 seconds
+  Import took 0.007043 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001408 seconds.
+Registered in 0.000751 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278E5153550 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB809A40 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E57BF9F0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E57BF9F0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5140EB0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB817A80 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E51ECEE0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E56BABB0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EC395020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EA528010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EACAD040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAEF950 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB94E160 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAA90030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.059 seconds
+- Completed reload, in  0.923 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
+Unloading 1254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 1.811900 ms (FindLiveObjects: 0.195000 ms CreateObjectMapping: 0.061500 ms MarkObjects: 1.503800 ms  DeleteObjects: 0.049900 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 2.929200 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.508400 ms  DeleteObjects: 0.082800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.230751 seconds.
+  path: Assets/Scripts/TimeController.cs
+  artifactKey: Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeController.cs using Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5032af465b5b069c4102b6a3bb39c03') in 0.005580 seconds
+  Import took 0.007790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Scripts/TimeController.cs
+  artifactKey: Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeController.cs using Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5032af465b5b069c4102b6a3bb39c03') in 0.003024 seconds
+  Import took 0.005339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.902854 seconds.
+  path: Assets/Scenes/End Scene.unity
+  artifactKey: Guid(5df7de43d44a1ab4fb0b53d5a8cb3581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/End Scene.unity using Guid(5df7de43d44a1ab4fb0b53d5a8cb3581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bf52bed213641b73915b66aa3cb43d') in 0.016850 seconds
+  Import took 0.019261 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001438 seconds.
+Registered in 0.000853 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278E5153550 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBA2AF10 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ECC04020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ECC04020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E563EBD0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E4D5A010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8DF2010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAEF950 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB90A0D0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EA528010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EACAD040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB48790 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB94E160 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAA90030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.213 seconds
+- Completed reload, in  0.860 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1760.
-Total: 2.769200 ms (FindLiveObjects: 0.395000 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.197900 ms  DeleteObjects: 0.106600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 1.831400 ms (FindLiveObjects: 0.233000 ms CreateObjectMapping: 0.066200 ms MarkObjects: 1.414200 ms  DeleteObjects: 0.116800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001009 seconds.
+Registered in 0.000840 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278EDB19630 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBF47E00 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBDAE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBDAE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED68F330 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBD89020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED948820 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8CE2020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB797190 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB43290 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9779010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9702040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E50F1030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED009010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1709.
+Total: 2.523900 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.105200 ms MarkObjects: 1.981100 ms  DeleteObjects: 0.121200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.835 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 1.750900 ms (FindLiveObjects: 0.134400 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.478900 ms  DeleteObjects: 0.103800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000871 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1713.
+Total: 2.608900 ms (FindLiveObjects: 0.145900 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.320200 ms  DeleteObjects: 0.091600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.828 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1715.
+Total: 1.963200 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.656400 ms  DeleteObjects: 0.091400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 619.024436 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(f3136fcf9c25d314ca463414f3457ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(f3136fcf9c25d314ca463414f3457ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72e552aa1bfc7767038149982739959') in 0.009660 seconds
+  Import took 0.011805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026340 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(f3136fcf9c25d314ca463414f3457ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(f3136fcf9c25d314ca463414f3457ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72e552aa1bfc7767038149982739959') in 0.003694 seconds
+  Import took 0.006763 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.820 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 3.844700 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.039000 ms MarkObjects: 3.556400 ms  DeleteObjects: 0.067100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.650229 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(f3136fcf9c25d314ca463414f3457ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(f3136fcf9c25d314ca463414f3457ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602668c217f9e4e5372ee422e4cc7cdc') in 0.005427 seconds
+  Import took 0.007608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.600840 seconds.
+  path: Assets/Scenes/End Scene.unity
+  artifactKey: Guid(5df7de43d44a1ab4fb0b53d5a8cb3581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/End Scene.unity using Guid(5df7de43d44a1ab4fb0b53d5a8cb3581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b5351fc4dd9d8382fbfa096c686118') in 0.012032 seconds
+  Import took 0.014499 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001016 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.3 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1719.
+Total: 2.259400 ms (FindLiveObjects: 0.299600 ms CreateObjectMapping: 0.133400 ms MarkObjects: 1.738200 ms  DeleteObjects: 0.087300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000764 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.848 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.4 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1721.
+Total: 3.023700 ms (FindLiveObjects: 0.249700 ms CreateObjectMapping: 0.091300 ms MarkObjects: 2.606100 ms  DeleteObjects: 0.075100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.4 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1723.
+Total: 2.236700 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.882500 ms  DeleteObjects: 0.075500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000847 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -512,1361 +402,53 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
+- Completed reload, in  0.875 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1762.
-Total: 4.084200 ms (FindLiveObjects: 0.469000 ms CreateObjectMapping: 0.254700 ms MarkObjects: 3.241300 ms  DeleteObjects: 0.117100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001175 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278EBCB4020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB809A40 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBDAE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBDAE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E50F1030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EC3B7010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED0FD010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5781040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED80E850 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB43290 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E4E658A0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E50F1030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED009010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1764.
-Total: 3.485500 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.073900 ms MarkObjects: 2.858000 ms  DeleteObjects: 0.088600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000857 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278EDB19630 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAE56F30 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED12F010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED12F010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E5140EB0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E940A030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBBD08B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDAFF010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB90A0D0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB512010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9755010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9702040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E968D020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBD37090 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
-Platform modules already initialized, skipping
+Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.4 MB.
+System memory in use after: 63.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1725.
+Total: 3.104900 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.050900 ms MarkObjects: 2.850900 ms  DeleteObjects: 0.053600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.243910 seconds.
+  path: Assets/Scripts/FinishLineController.cs
+  artifactKey: Guid(196a51330d96f0a43acac0857b12e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FinishLineController.cs using Guid(196a51330d96f0a43acac0857b12e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12203aa2455f810770f31084d1ee5221') in 0.010041 seconds
+  Import took 0.012261 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.1 MB.
-System memory in use after: 78.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1766.
-Total: 2.185300 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.707500 ms  DeleteObjects: 0.095800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 863.240706 seconds.
-  path: Assets/Models
-  artifactKey: Guid(759bb9da831d80e4d95d253b51c47e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(759bb9da831d80e4d95d253b51c47e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac742e619756160dae6c7aab8cee1d7') in 0.014683 seconds
-  Import took 0.018031 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.495117 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2708cae741d559b32aad778cfc102d9') in 0.022104 seconds
-  Import took 0.024512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015692 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2708cae741d559b32aad778cfc102d9') in 0.004566 seconds
-  Import took 0.007850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.769109 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Marker/Materials/Whiteboard Marker (Red).mat
-  artifactKey: Guid(2f9eca3e4cbfd34459df8339019d64b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Marker/Materials/Whiteboard Marker (Red).mat using Guid(2f9eca3e4cbfd34459df8339019d64b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f2b9cdb41de73ce084da07459c5c54') in 0.098674 seconds
-  Import took 0.101689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Eraser/Materials/WhiteboardEraser.mat
-  artifactKey: Guid(0a7a0c3e3ff1cce4ea07bc110da846f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Eraser/Materials/WhiteboardEraser.mat using Guid(0a7a0c3e3ff1cce4ea07bc110da846f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad068caf4434fa16142e45068e90dfc') in 0.027390 seconds
-  Import took 0.029973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.316510 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Marker/Materials/Whiteboard Marker (Black).mat
-  artifactKey: Guid(2380e3be061104e4996cd9b8ba37c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Marker/Materials/Whiteboard Marker (Black).mat using Guid(2380e3be061104e4996cd9b8ba37c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db0f08e92787006e88151834952129c') in 0.024866 seconds
-  Import took 0.029633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Marker/Materials/Whiteboard Marker (Blue).mat
-  artifactKey: Guid(aa47fd9526383154a957dc047de2bd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Marker/Materials/Whiteboard Marker (Blue).mat using Guid(aa47fd9526383154a957dc047de2bd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d28b332a02271d47dd8ea19d13aa108') in 0.033773 seconds
-  Import took 0.036774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006195 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Trash Bin/Materials/Trash Bin.mat
-  artifactKey: Guid(29b7318cc45308e4094d06c3b666a161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Trash Bin/Materials/Trash Bin.mat using Guid(29b7318cc45308e4094d06c3b666a161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec67c24584ae8a12ec2106a44cd153c') in 0.067974 seconds
-  Import took 0.072822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard/Materials/Whiteboard.mat
-  artifactKey: Guid(c4ec632ab5e113148be5da395ab48e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard/Materials/Whiteboard.mat using Guid(c4ec632ab5e113148be5da395ab48e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9db88df35540ffa8739f1f9a05c2bf1') in 0.025207 seconds
-  Import took 0.028644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.498414 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Binder/Texture/Materials/texture_binder_pink.mat
-  artifactKey: Guid(dad50c9931577e74bb995ada80eda735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Binder/Texture/Materials/texture_binder_pink.mat using Guid(dad50c9931577e74bb995ada80eda735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8edf2fb6b8c033d9816b0c3cc7fd3a') in 0.022510 seconds
-  Import took 0.025114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Computer Tower/Materials/Tower.mat
-  artifactKey: Guid(6c90368991c6e15488b86093d3b79a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Computer Tower/Materials/Tower.mat using Guid(6c90368991c6e15488b86093d3b79a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3144c15b9455b6c48a140184fb9c1d65') in 0.032941 seconds
-  Import took 0.036659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056124 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Binder/Texture/Materials/texture_binder_green.mat
-  artifactKey: Guid(8703f09d317583c41987491a7420c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Binder/Texture/Materials/texture_binder_green.mat using Guid(8703f09d317583c41987491a7420c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7531ae73900e53cd0997ad86049cecb0') in 0.025020 seconds
-  Import took 0.027893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Binder/Texture/Materials/texture_binder_orange.mat
-  artifactKey: Guid(513fa419ddf3f4e4d84b25a43d6752c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Binder/Texture/Materials/texture_binder_orange.mat using Guid(513fa419ddf3f4e4d84b25a43d6752c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849ef9d3656da89ff02e07b034a1bcea') in 0.031251 seconds
-  Import took 0.033637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.287308 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Yellow).mat
-  artifactKey: Guid(169b950d23ac21e40ad604e8466be8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Yellow).mat using Guid(169b950d23ac21e40ad604e8466be8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8f2ea661fae1f91eb6d2d3a67b8c9b') in 0.024468 seconds
-  Import took 0.027994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Green).mat
-  artifactKey: Guid(74453064a1de20f4993dcd33c4563042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Green).mat using Guid(74453064a1de20f4993dcd33c4563042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0990c6d41fc4dc0e366f6d6c340704f') in 0.031846 seconds
-  Import took 0.034835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Pink).mat
-  artifactKey: Guid(2941de356477c4d42812b9e0339a5f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Pink).mat using Guid(2941de356477c4d42812b9e0339a5f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4016e2fce54b94389ea7d11323ee94f') in 0.027306 seconds
-  Import took 0.030264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000479 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Tape Roll/Materials/Tape Roll.mat
-  artifactKey: Guid(de0f51e42731d4b448095e1c6a2805a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Tape Roll/Materials/Tape Roll.mat using Guid(de0f51e42731d4b448095e1c6a2805a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30a1dc26a5b95f98610c20a07158e3e') in 0.027499 seconds
-  Import took 0.031064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.204754 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Stapler/Materials/Stapler.mat
-  artifactKey: Guid(a99d9af328622ea4ba2fc1dcad3bfdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Stapler/Materials/Stapler.mat using Guid(a99d9af328622ea4ba2fc1dcad3bfdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90591e55548b3498a435f809fc523b54') in 0.027143 seconds
-  Import took 0.031868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000510 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Blue).mat
-  artifactKey: Guid(9443ff449e2885648bf01897fa33a24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Sticky Notes/Materials/Sticky Notes (Blue).mat using Guid(9443ff449e2885648bf01897fa33a24d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4692f2051cfb6b38304a6b4086c19f07') in 0.029308 seconds
-  Import took 0.032348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Yellow).mat
-  artifactKey: Guid(8088866b11c75704aac929c0d1a640f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Yellow).mat using Guid(8088866b11c75704aac929c0d1a640f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6295b3e7e9e4164043d96c52759e170') in 0.027647 seconds
-  Import took 0.031170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Stamp/Materials/Stamp.mat
-  artifactKey: Guid(547b845cb8f6117438040c1e82417f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Stamp/Materials/Stamp.mat using Guid(547b845cb8f6117438040c1e82417f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2b1b2ae95e281c212a95396890ea3c') in 0.023197 seconds
-  Import took 0.027323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000517 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Purple).mat
-  artifactKey: Guid(2fba4ed9175ba65408a05a86e78cf448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Purple).mat using Guid(2fba4ed9175ba65408a05a86e78cf448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946bcc03e0d3bb3243ac043c3ff2f3f1') in 0.025176 seconds
-  Import took 0.028079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Red).mat
-  artifactKey: Guid(f98cb11950c0cf145a1e2f3ef6b739e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Red).mat using Guid(f98cb11950c0cf145a1e2f3ef6b739e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a3044f40eff5de88d10641d6be9412') in 0.027942 seconds
-  Import took 0.032190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.222181 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Green).mat
-  artifactKey: Guid(babe031dd392327418793743a0dd40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Green).mat using Guid(babe031dd392327418793743a0dd40b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a76332196cbeb259e2120efdb89eb0') in 0.024276 seconds
-  Import took 0.027305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Black).mat
-  artifactKey: Guid(4bdb6b67fc29f3043bed0ed4191d7fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Black).mat using Guid(4bdb6b67fc29f3043bed0ed4191d7fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524bbb33ea62e67c8cbb5ec303a7d424') in 0.027138 seconds
-  Import took 0.029820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Blue).mat
-  artifactKey: Guid(79afd542d66ae0b4bb5dda740b61e63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Blue).mat using Guid(79afd542d66ae0b4bb5dda740b61e63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad90c8dfeaef93ee6b4711802b80761') in 0.025866 seconds
-  Import took 0.030309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Orange).mat
-  artifactKey: Guid(50ccc91ee342d924982ba356b0dc81b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Scissors/Materials/Scissors (Orange).mat using Guid(50ccc91ee342d924982ba356b0dc81b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49ef2f94a486839f7c1b84c71e16b0f') in 0.028434 seconds
-  Import took 0.032484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.041726 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Yellow).mat
-  artifactKey: Guid(f57ca3ce553d10c489cd2eb63d069a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Yellow).mat using Guid(f57ca3ce553d10c489cd2eb63d069a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7816c4773e2d1953748ada13c834313') in 0.028483 seconds
-  Import took 0.032189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Ruler/Materials/Ruler.mat
-  artifactKey: Guid(179b9e3191733364cae187e9ccb2646e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Ruler/Materials/Ruler.mat using Guid(179b9e3191733364cae187e9ccb2646e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6444edc56a547cf9e6ae6c5833292a1') in 0.027796 seconds
-  Import took 0.030569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.576238 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Purple).mat
-  artifactKey: Guid(c4717a10c70219c4faf3ab6cc787e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Purple).mat using Guid(c4717a10c70219c4faf3ab6cc787e682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207c135da23263f5e3ab8175b417464f') in 0.030545 seconds
-  Import took 0.034923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Green).mat
-  artifactKey: Guid(cc127534600a60241bfacc5e60867702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Green).mat using Guid(cc127534600a60241bfacc5e60867702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036ea53c6fe9bbecf93efb3a983f774e') in 0.030811 seconds
-  Import took 0.034303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Red).mat
-  artifactKey: Guid(2cab10abb78f41d42bce482a0d8a97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Red).mat using Guid(2cab10abb78f41d42bce482a0d8a97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882ec3cc6152ecf4e8a9f2b5dd252bc2') in 0.028002 seconds
-  Import took 0.031701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Orange).mat
-  artifactKey: Guid(34d5b83284be785429b2e8be5dd651d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Orange).mat using Guid(34d5b83284be785429b2e8be5dd651d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb7782135006364bc4e0c06a6af51a') in 0.028125 seconds
-  Import took 0.031290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Blue).mat
-  artifactKey: Guid(473e809f6c8239f4d998e30f8b1ec31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Push Pin/Materials/Push Pin (Blue).mat using Guid(473e809f6c8239f4d998e30f8b1ec31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a07d473bfa83b068371e5ef38c2f47') in 0.024550 seconds
-  Import took 0.028231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Orange).mat
-  artifactKey: Guid(380a5f8605d7f134a91c477b8faaf9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Orange).mat using Guid(380a5f8605d7f134a91c477b8faaf9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63a13c4ba2ff571f8e4b810ad46f6c5') in 0.026935 seconds
-  Import took 0.030535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Blue).mat
-  artifactKey: Guid(09f225fc7ef9f174282be03fb5c4599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Blue).mat using Guid(09f225fc7ef9f174282be03fb5c4599f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c8781e985a78df4e7f4a1300aba661') in 0.024906 seconds
-  Import took 0.027571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Green).mat
-  artifactKey: Guid(2fee91189aa6d1d45b65205f0c96b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Green).mat using Guid(2fee91189aa6d1d45b65205f0c96b453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016160977a4635d2163effb3761cb745') in 0.025555 seconds
-  Import took 0.028532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Pencil/Materials/Pencil.mat
-  artifactKey: Guid(22eace3195bfb474fbe13afd37d4bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Pencil/Materials/Pencil.mat using Guid(22eace3195bfb474fbe13afd37d4bc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04b017b774dc230f88eaf2454a50360') in 0.026065 seconds
-  Import took 0.029708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000450 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Pen/Materials/Pen (Blue).mat
-  artifactKey: Guid(e0c8812316574544eb64613987316a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Pen/Materials/Pen (Blue).mat using Guid(e0c8812316574544eb64613987316a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4c5aaed033b0e45bfb8dd694031822') in 0.026603 seconds
-  Import took 0.029687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Paper Stack/Materials/Paper Stack.mat
-  artifactKey: Guid(ebdf9bb7dbc00ae489c90dc9d0b59d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Paper Stack/Materials/Paper Stack.mat using Guid(ebdf9bb7dbc00ae489c90dc9d0b59d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b47fc02b31221bb706a0012e0f6008') in 0.023391 seconds
-  Import took 0.026701 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Pencil Holder/Materials/Pencil Holder (Brown).mat
-  artifactKey: Guid(98308a9c770858342a91ad65380499f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Pencil Holder/Materials/Pencil Holder (Brown).mat using Guid(98308a9c770858342a91ad65380499f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80eaaad9ff07bc471e5cd5749f1d3ad6') in 0.027605 seconds
-  Import took 0.031184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Blue).mat
-  artifactKey: Guid(8a2199aac4e6ace4e8d2a59007093d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Blue).mat using Guid(8a2199aac4e6ace4e8d2a59007093d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf3cc5c4b6f220ebcb86363dea26d3d') in 0.023634 seconds
-  Import took 0.026843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Pencil Holder/Materials/Pencil Holder (Black).mat
-  artifactKey: Guid(a9d065b003cb4544591d03b8d0bd40b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Pencil Holder/Materials/Pencil Holder (Black).mat using Guid(a9d065b003cb4544591d03b8d0bd40b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1658be0667843929fa28875b2629f407') in 0.023301 seconds
-  Import took 0.027029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Black).mat
-  artifactKey: Guid(bf9e333a6900bda4cbce1a5357199a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Black).mat using Guid(bf9e333a6900bda4cbce1a5357199a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acd2881e10a4a9597f1d751cf6d2faa') in 0.026451 seconds
-  Import took 0.030775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Black).mat
-  artifactKey: Guid(7834889e99ae72c459884ec9e5e91d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Black).mat using Guid(7834889e99ae72c459884ec9e5e91d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31675df589c559a883e0db339edc0eb1') in 0.024236 seconds
-  Import took 0.027138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Red).mat
-  artifactKey: Guid(21ef9b5b212a4204e9c87ad7c5ffe549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Red).mat using Guid(21ef9b5b212a4204e9c87ad7c5ffe549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b492b4d3125a0f1267de5be862cbd3') in 0.024552 seconds
-  Import took 0.027691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Paper/Materials/Paper.mat
-  artifactKey: Guid(152ea1ec1417ed94c9929353d1c8809d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Paper/Materials/Paper.mat using Guid(152ea1ec1417ed94c9929353d1c8809d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145b7cab1f72dc67ab357bd18ff8041f') in 0.018364 seconds
-  Import took 0.021463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (White).mat
-  artifactKey: Guid(92edbf622f2338d41acc4a344f426917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (White).mat using Guid(92edbf622f2338d41acc4a344f426917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43471bc288384714c61a68bfcfd354f9') in 0.024192 seconds
-  Import took 0.027723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Furniture Pack/obj_mtl/cupboard-kitchen.obj
-  artifactKey: Guid(5fdb691c7f95d324b85a1c25e37b3a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/cupboard-kitchen.obj using Guid(5fdb691c7f95d324b85a1c25e37b3a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b3eed9864caddcb3097b7623163bc8') in 0.079469 seconds
-  Import took 0.082225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Yellow).mat
-  artifactKey: Guid(0678fce7a7841fc41850b6931d736f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Yellow).mat using Guid(0678fce7a7841fc41850b6931d736f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f13b9036083413c0b3bf3fe57e7a3c7') in 0.026393 seconds
-  Import took 0.028979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Green).mat
-  artifactKey: Guid(69f4a1f3d020dcf44a68c51a747264ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Green).mat using Guid(69f4a1f3d020dcf44a68c51a747264ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f8452dfea8a14cba62f4674c969e47') in 0.027608 seconds
-  Import took 0.030719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Orange).mat
-  artifactKey: Guid(b61efc43a28967e49a72e01605c81842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Orange).mat using Guid(b61efc43a28967e49a72e01605c81842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62affd191e6bde5d2571737c01ee65b0') in 0.025354 seconds
-  Import took 0.028834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Furniture Pack/obj_mtl/sofa-double.obj
-  artifactKey: Guid(ea09f359b94669a41b787fe28b673282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/sofa-double.obj using Guid(ea09f359b94669a41b787fe28b673282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca653c60f7a80b58020f96acc2d678c') in 0.038147 seconds
-  Import took 0.041615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Purple).mat
-  artifactKey: Guid(88f08629eb36e9446906a6d16cd2722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Notebook/Materials/Notebook (Purple).mat using Guid(88f08629eb36e9446906a6d16cd2722e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d744ef9288c9713ec08b9e410cea346') in 0.023184 seconds
-  Import took 0.027488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Purple).mat
-  artifactKey: Guid(0a1de7a69ac03204998e9328571a8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Purple).mat using Guid(0a1de7a69ac03204998e9328571a8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba108d39aeeea4b922a30f61a156d2af') in 0.026220 seconds
-  Import took 0.029898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Pen/Materials/Pen (Black).mat
-  artifactKey: Guid(0b1e95eecadbfdd4c976389a11a8080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Pen/Materials/Pen (Black).mat using Guid(0b1e95eecadbfdd4c976389a11a8080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e9f081c119e88ab29bb7df61ba5acd') in 0.029897 seconds
-  Import took 0.033202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Red).mat
-  artifactKey: Guid(46362a27b28f1b14f9fb0160b882b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Red).mat using Guid(46362a27b28f1b14f9fb0160b882b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e9fcf619ea76668f1a330a43ac533c') in 0.025682 seconds
-  Import took 0.029046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Furniture Pack/obj_mtl/lamp.obj
-  artifactKey: Guid(1a2f2d19c1084024f9a02708d8ace835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/lamp.obj using Guid(1a2f2d19c1084024f9a02708d8ace835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda1dcf0971bc45227a94445344045c9') in 0.033471 seconds
-  Import took 0.036619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Yellow).mat
-  artifactKey: Guid(1aaef73c29beb5f4492abdb3840f6602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Permanent Marker/Materials/Permanent Marker (Yellow).mat using Guid(1aaef73c29beb5f4492abdb3840f6602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d9f373243f1bb0b0656b035ddcb883') in 0.025154 seconds
-  Import took 0.028156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Paper Clip/Materials/Paper Clip.mat
-  artifactKey: Guid(46812de857e1bf54ab86c1e23bec2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Paper Clip/Materials/Paper Clip.mat using Guid(46812de857e1bf54ab86c1e23bec2b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76671d6ab85f7bcc96c10cb65f0afbe') in 0.020211 seconds
-  Import took 0.022800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Phone/Materials/Phone.mat
-  artifactKey: Guid(565de224a34d84f47b7d7ee06afba2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Phone/Materials/Phone.mat using Guid(565de224a34d84f47b7d7ee06afba2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74471881ecf487a4d124c56555c937b0') in 0.023353 seconds
-  Import took 0.026808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.653502 seconds.
-  path: Assets/Furniture Pack/obj_mtl/table-round.obj
-  artifactKey: Guid(c177a17c782977b4894dab873efa70f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/table-round.obj using Guid(c177a17c782977b4894dab873efa70f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19d3c508b52ade773948c6cbf77a740') in 0.044298 seconds
-  Import took 0.047625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/Furniture Pack/obj_mtl/chair-rest.obj
-  artifactKey: Guid(a69badc5e98a7b94ea1e85f584226295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/chair-rest.obj using Guid(a69badc5e98a7b94ea1e85f584226295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b093dd0371b5eb600f32fe6456add8') in 0.045025 seconds
-  Import took 0.048523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Mini Cactus/Materials/Mini Cactus.mat
-  artifactKey: Guid(2e9df0ba6cf58e54e878ab318996ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Mini Cactus/Materials/Mini Cactus.mat using Guid(2e9df0ba6cf58e54e878ab318996ad64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a256bc5b3a2382511ce3882b65863c31') in 0.025161 seconds
-  Import took 0.029627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Mug/Materials/Mug (Full).mat
-  artifactKey: Guid(1cc345778e5b180438bd39833b58468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Mug/Materials/Mug (Full).mat using Guid(1cc345778e5b180438bd39833b58468a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c4709eccc3c8435c5984e5f5b9e6a8') in 0.027625 seconds
-  Import took 0.032069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/Furniture Pack/obj_mtl/table-cafe.obj
-  artifactKey: Guid(b4534764718b4b744ad52ab330efffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/table-cafe.obj using Guid(b4534764718b4b744ad52ab330efffe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeefbdb67d4fd55cb1bde3bb08fa785d') in 0.042581 seconds
-  Import took 0.045852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Computer Monitor/Materials/Monitor.mat
-  artifactKey: Guid(6554f27ec5dd77c429c7f5558a850b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Computer Monitor/Materials/Monitor.mat using Guid(6554f27ec5dd77c429c7f5558a850b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb1c23fd6d7b066540c738d7c32b6b8') in 0.024555 seconds
-  Import took 0.027789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Pink).mat
-  artifactKey: Guid(15dc61b27af3da34dbde34977f5cbae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Pink).mat using Guid(15dc61b27af3da34dbde34977f5cbae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7de80f058479031e88304f45ea3bb4') in 0.028177 seconds
-  Import took 0.030817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Furniture Pack/obj_mtl/chair.obj
-  artifactKey: Guid(5685ff06597169245bc9346374b88017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/chair.obj using Guid(5685ff06597169245bc9346374b88017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c4d43eb6daa3117e72dfe446273721') in 0.035866 seconds
-  Import took 0.038831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Mug/Materials/Mug (Empty).mat
-  artifactKey: Guid(8fd645cd1a3383e4bb0ac2519c11c300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Mug/Materials/Mug (Empty).mat using Guid(8fd645cd1a3383e4bb0ac2519c11c300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf53e2acb5511e25637afd970cd3de30') in 0.016858 seconds
-  Import took 0.020017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Green).mat
-  artifactKey: Guid(71b910a3570d0c24cb649fad0711eaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Green).mat using Guid(71b910a3570d0c24cb649fad0711eaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1280cdede6f8b35e51613c33feee2c') in 0.023142 seconds
-  Import took 0.026430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Calculator/Materials/Calculator.mat
-  artifactKey: Guid(27b01407eea897949a366f77320b6eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Calculator/Materials/Calculator.mat using Guid(27b01407eea897949a366f77320b6eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c134d3ffad3615e1b6b27d3274d697') in 0.028378 seconds
-  Import took 0.031575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Yellow).mat
-  artifactKey: Guid(399fb3b028ae16349b18eb0a86cb3d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Yellow).mat using Guid(399fb3b028ae16349b18eb0a86cb3d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03be7c4a1c7bf227443b660595a36bbe') in 0.026661 seconds
-  Import took 0.030156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Furniture Pack/obj_mtl/stool-alt.obj
-  artifactKey: Guid(5f541ddfd98a17142a14ff077860419b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/stool-alt.obj using Guid(5f541ddfd98a17142a14ff077860419b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80076a9193e005daa6237854f7701e42') in 0.037549 seconds
-  Import took 0.041160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Furniture Pack/obj_mtl/table.obj
-  artifactKey: Guid(63e6748dd3e51354c9d73ca8902f634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/table.obj using Guid(63e6748dd3e51354c9d73ca8902f634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f189093900177ef1e52597d87598b9') in 0.035596 seconds
-  Import took 0.039104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Furniture Pack/obj_mtl/lamp-long.obj
-  artifactKey: Guid(4acd543ad142bbe46ad3ff496fd7a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/lamp-long.obj using Guid(4acd543ad142bbe46ad3ff496fd7a448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3054579e388c28b2db9d2e5387538af') in 0.035892 seconds
-  Import took 0.039538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Blue).mat
-  artifactKey: Guid(64ac3d4ebfbfebd4fa2936282011a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Blue).mat using Guid(64ac3d4ebfbfebd4fa2936282011a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca13ed735bcb8825d4a501bc060b5f6') in 0.027280 seconds
-  Import took 0.030820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Black).mat
-  artifactKey: Guid(9f137362e8332ec4ea5e7576d601a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Black).mat using Guid(9f137362e8332ec4ea5e7576d601a455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5d16a970ac7505edfeefc9d36a3127') in 0.023964 seconds
-  Import took 0.027403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Computer Mousepad/Materials/Mousepad.mat
-  artifactKey: Guid(ac1d9a1fedd3d514b816a2d4fe824dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Computer Mousepad/Materials/Mousepad.mat using Guid(ac1d9a1fedd3d514b816a2d4fe824dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e9b03a2a4ca9c17d23ed46685bed48') in 0.025078 seconds
-  Import took 0.028095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Furniture Pack/obj_mtl/bed-single.obj
-  artifactKey: Guid(3266eee640a2cc74b9e482806d3e5329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/bed-single.obj using Guid(3266eee640a2cc74b9e482806d3e5329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf5c82084b3ce572ae2e3ea142ffb41') in 0.037541 seconds
-  Import took 0.040563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Furniture Pack/obj_mtl/table-modern.obj
-  artifactKey: Guid(579001a83b03d7545a0189ccb71d9722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/table-modern.obj using Guid(579001a83b03d7545a0189ccb71d9722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5830559dee15c6125efe2e16ff45ce7') in 0.035132 seconds
-  Import took 0.038056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Cabinet (Large).mat
-  artifactKey: Guid(5cfb9912e6c15c54a89ad8114377d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Cabinet (Large).mat using Guid(5cfb9912e6c15c54a89ad8114377d416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c94a33d2c51351a44ba879b7d3f9192') in 0.014047 seconds
-  Import took 0.018226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Furniture Pack/obj_mtl/desk.obj
-  artifactKey: Guid(5037f1a6ffe8dfa43992ab491285390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/desk.obj using Guid(5037f1a6ffe8dfa43992ab491285390a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f97cf5f72386aa99353d1682a87875') in 0.039621 seconds
-  Import took 0.043026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Index Card/Materials/Index Card.mat
-  artifactKey: Guid(5a0460c25da2a404a8c7764f3f161e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Index Card/Materials/Index Card.mat using Guid(5a0460c25da2a404a8c7764f3f161e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2158f0bf9f107162a3365c8d153a4eb8') in 0.027043 seconds
-  Import took 0.030267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Furniture Pack/obj_mtl/sofa-triple.obj
-  artifactKey: Guid(9d87a481aa997e348a8c85a68f2ae5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/sofa-triple.obj using Guid(9d87a481aa997e348a8c85a68f2ae5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b51e81f244b744ae220328cee8a4335') in 0.039141 seconds
-  Import took 0.043095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Furniture Pack/obj_mtl/chair-2.obj
-  artifactKey: Guid(011ee49b13102ba44bd1c68094954b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/chair-2.obj using Guid(011ee49b13102ba44bd1c68094954b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3b7ffde83d8e44d471a94c9d35d3a0') in 0.036209 seconds
-  Import took 0.039272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Housing (Small).mat
-  artifactKey: Guid(98b5bfd7f30f0bc4598876856a4d329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Housing (Small).mat using Guid(98b5bfd7f30f0bc4598876856a4d329f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cc7805d0703b7fa1129fb7ef31eb58') in 0.010395 seconds
-  Import took 0.013127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Green).mat
-  artifactKey: Guid(0c8ce583bbb947e488069c8a2eda3485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Green).mat using Guid(0c8ce583bbb947e488069c8a2eda3485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64690a45e56aa495d603474c70906fd6') in 0.024043 seconds
-  Import took 0.027056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Furniture Pack/obj_mtl/table-small.obj
-  artifactKey: Guid(f33aac7c11104e944814bdd1fffb0972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/table-small.obj using Guid(f33aac7c11104e944814bdd1fffb0972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d74517df2f7ed6d384796edf28c4d1d') in 0.034672 seconds
-  Import took 0.037880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Orange).mat
-  artifactKey: Guid(edaa5aea533472148b15cec2ad0ff607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Binder/Materials/Binder (Orange).mat using Guid(edaa5aea533472148b15cec2ad0ff607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7574eb83af65d4ce65f67c1c88129c8') in 0.024459 seconds
-  Import took 0.027446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Furniture Pack/obj_mtl/cupboard.obj
-  artifactKey: Guid(1a9ac600fe3241f4f8e809925315f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/cupboard.obj using Guid(1a9ac600fe3241f4f8e809925315f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd2ea5e7d4701d4205f8e6e6e7aebb2') in 0.033123 seconds
-  Import took 0.036258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Furniture Pack/obj_mtl/chair-rock.obj
-  artifactKey: Guid(aa00de4f3fe09094287c9687e94067f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/chair-rock.obj using Guid(aa00de4f3fe09094287c9687e94067f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b773bc9475fbda3c2c7806b864b0adbf') in 0.034222 seconds
-  Import took 0.037713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Box/Materials/Box.mat
-  artifactKey: Guid(9b84e89f786be7d45b87c2bc623a5071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Box/Materials/Box.mat using Guid(9b84e89f786be7d45b87c2bc623a5071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d4a5139049fe56b27dc0e13935580a') in 0.022796 seconds
-  Import took 0.025967 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Pink).mat
-  artifactKey: Guid(e025a12bd61c9764898707fe5f122aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Pink).mat using Guid(e025a12bd61c9764898707fe5f122aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de48f333a61094be5f833192d0801b57') in 0.019790 seconds
-  Import took 0.022960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Computer Mouse/Materials/Mouse.mat
-  artifactKey: Guid(c3787166a3e536d47a74188fb10c6b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Computer Mouse/Materials/Mouse.mat using Guid(c3787166a3e536d47a74188fb10c6b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b566dca0f59ce14c452ce7d703970906') in 0.021799 seconds
-  Import took 0.024891 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Furniture Pack/obj_mtl/chair-alt.obj
-  artifactKey: Guid(8ccbe9908001c7c4a8c478e995075bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/chair-alt.obj using Guid(8ccbe9908001c7c4a8c478e995075bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517a7e18fe0e8a03820f802c3f8f64cd') in 0.033846 seconds
-  Import took 0.036610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Furniture Pack/obj_mtl/sofa-single.obj
-  artifactKey: Guid(f203316dd12c2b04eb843045f04bee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/sofa-single.obj using Guid(f203316dd12c2b04eb843045f04bee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4bd250964819addb0f79f0c73f5b29') in 0.034024 seconds
-  Import took 0.036438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Furniture Pack/obj_mtl/chair-cafe.obj
-  artifactKey: Guid(9090ac736e834254893c63a779533d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/chair-cafe.obj using Guid(9090ac736e834254893c63a779533d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e54fe2a5a3d83e8b5d2ee15cb38e59') in 0.035431 seconds
-  Import took 0.038706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Blue).mat
-  artifactKey: Guid(281cf4e647fe5ad41831da80356ecfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Blue).mat using Guid(281cf4e647fe5ad41831da80356ecfb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7602855cce66287ab715fe955b5bb5cb') in 0.021810 seconds
-  Import took 0.025409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Housing (Large).mat
-  artifactKey: Guid(295008b699fc1e34bacc421c41b65264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Housing (Large).mat using Guid(295008b699fc1e34bacc421c41b65264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189342d22661bb84eed6c651bcbf74df') in 0.011384 seconds
-  Import took 0.014108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Furniture Pack/obj_mtl/bed-king.obj
-  artifactKey: Guid(bdba82721eea05b4da5eaeb62c9ec4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/obj_mtl/bed-king.obj using Guid(bdba82721eea05b4da5eaeb62c9ec4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fa2a58107e0c9200ed801399bf698a') in 0.032212 seconds
-  Import took 0.034988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Orange).mat
-  artifactKey: Guid(1e733452bbfc3ba40b9229a7b03f47e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Highlighter/Materials/Highlighter (Orange).mat using Guid(1e733452bbfc3ba40b9229a7b03f47e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab0c92de2bfe71ab63f02cf72cf8f95') in 0.024566 seconds
-  Import took 0.028230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Cabinet (Small).mat
-  artifactKey: Guid(f22eb7ed7fdf1a64abfb25cd64645d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/File Cabinet/Materials/Cabinet (Small).mat using Guid(f22eb7ed7fdf1a64abfb25cd64645d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5747524e7b22a4d8413466ebb29e5d') in 0.016931 seconds
-  Import took 0.019802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.751833 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Calendar/Materials/Calendar.mat
-  artifactKey: Guid(5463eaa49f87fd84183d4b5a45ccb73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Calendar/Materials/Calendar.mat using Guid(5463eaa49f87fd84183d4b5a45ccb73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe15e5799baf5244c6be90e978dfb9') in 0.028622 seconds
-  Import took 0.032556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Coffee Cup/Materials/Coffee Cup (Black).mat
-  artifactKey: Guid(2c5f01b135b0fae4981db0f0ccdcf622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Coffee Cup/Materials/Coffee Cup (Black).mat using Guid(2c5f01b135b0fae4981db0f0ccdcf622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194b4c37ac02fb30f133c82de9ba03d9') in 0.032709 seconds
-  Import took 0.036016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Clipboard/Materials/Clipboard.mat
-  artifactKey: Guid(9a94a820bd998fc46aa92242d5e636cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Clipboard/Materials/Clipboard.mat using Guid(9a94a820bd998fc46aa92242d5e636cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffd5eb3e91140f9949d1bb9c81d876d') in 0.029121 seconds
-  Import took 0.033247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Coffee Cup/Materials/Coffee Cup (White).mat
-  artifactKey: Guid(44179bfbf1a60914abb2ea9037159510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Coffee Cup/Materials/Coffee Cup (White).mat using Guid(44179bfbf1a60914abb2ea9037159510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d9a8cd83d9443313822924dec21a8b0') in 0.025156 seconds
-  Import took 0.028427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Chair/Materials/Chair.mat
-  artifactKey: Guid(5145d65bc7b738a48bab0c657c64ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Chair/Materials/Chair.mat using Guid(5145d65bc7b738a48bab0c657c64ff66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9203f51c2ca332553647affaff729f26') in 0.025995 seconds
-  Import took 0.029195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Computer Keyboard/Materials/Computer Keyboard.mat
-  artifactKey: Guid(1eb1ffdc93d72344391553bf91c6bcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Computer Keyboard/Materials/Computer Keyboard.mat using Guid(1eb1ffdc93d72344391553bf91c6bcf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c969acc44eff1f0b1b0e89f94af508') in 0.025705 seconds
-  Import took 0.029365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.246886 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Corkboard/Materials/Corkboard.mat
-  artifactKey: Guid(f9492e6206afeac4f8e70697406dfd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Corkboard/Materials/Corkboard.mat using Guid(f9492e6206afeac4f8e70697406dfd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80cb62dcdfcc82b904c516c6cd21cfd') in 0.019587 seconds
-  Import took 0.023591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Cubicle/Materials/Cubicle.mat
-  artifactKey: Guid(d9171f5ef4ebf1541ba50029d8725b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Cubicle/Materials/Cubicle.mat using Guid(d9171f5ef4ebf1541ba50029d8725b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e67a948f159d4d8129f8e60f203a2d8') in 0.024050 seconds
-  Import took 0.027707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Eraser/Materials/Eraser.mat
-  artifactKey: Guid(dbcc2d6da8d72b242ba7045d0cf74e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Eraser/Materials/Eraser.mat using Guid(dbcc2d6da8d72b242ba7045d0cf74e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579ed00f63589b1ea2e0c8b6eaa5bb26') in 0.027098 seconds
-  Import took 0.031403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000628 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Document Holder/Materials/Document Holder.mat
-  artifactKey: Guid(de17705aeb002d448a93e0c184dccc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Document Holder/Materials/Document Holder.mat using Guid(de17705aeb002d448a93e0c184dccc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922cb905c1e0c79b2057ab61b445ac07') in 0.028072 seconds
-  Import took 0.031342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007797 seconds.
-  path: Assets/Material/Finish Line.mat
-  artifactKey: Guid(1ba74b6cd9a26ec448359f05d6117266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Finish Line.mat using Guid(1ba74b6cd9a26ec448359f05d6117266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4422153957f51fb971a68332dfdc82c0') in 0.026682 seconds
-  Import took 0.030989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Folder/Materials/Folder.mat
-  artifactKey: Guid(820bda0e7a8eb5d4fa4321159b85c0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Folder/Materials/Folder.mat using Guid(820bda0e7a8eb5d4fa4321159b85c0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f30eaba488543b2b2ea9f2dedd5b90b') in 0.029863 seconds
-  Import took 0.034271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Flash Drive/Materials/Flash Drive (White).mat
-  artifactKey: Guid(d187a3e021e00b7469e03880304850e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Flash Drive/Materials/Flash Drive (White).mat using Guid(d187a3e021e00b7469e03880304850e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2234b04c2cd7cbf8196e4f19142c0802') in 0.024819 seconds
-  Import took 0.028222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Flash Drive/Materials/Flash Drive (Black).mat
-  artifactKey: Guid(924e57efec6e3cb4197ea4ee8b73f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Flash Drive/Materials/Flash Drive (Black).mat using Guid(924e57efec6e3cb4197ea4ee8b73f841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f68998e5efec38fde1a467003d7cdbc') in 0.022625 seconds
-  Import took 0.026616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.254953 seconds.
-  path: Assets/Material/Highlighter.mat
-  artifactKey: Guid(03e9627e331f34741af35601feacc9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Highlighter.mat using Guid(03e9627e331f34741af35601feacc9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54e54026e626ca5a929d702a5dafe1c') in 0.021007 seconds
-  Import took 0.024497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.342709 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Blue).mat
-  artifactKey: Guid(660a91e41ddb316449792512a9f409ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Blue).mat using Guid(660a91e41ddb316449792512a9f409ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8707c2dca17dee007f7443624aa555') in 0.031308 seconds
-  Import took 0.034983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Green).mat
-  artifactKey: Guid(857821bbf8f1d3f469a65ed92da15641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Green).mat using Guid(857821bbf8f1d3f469a65ed92da15641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8ef38616e144fc6aa91482c0858bb4') in 0.031110 seconds
-  Import took 0.035077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Yellow).mat
-  artifactKey: Guid(760cfea1d0ea3b247b43d07e22a23b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Yellow).mat using Guid(760cfea1d0ea3b247b43d07e22a23b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e64bf718a799fb28e905f83134d0eb') in 0.028212 seconds
-  Import took 0.030982 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Orange).mat
-  artifactKey: Guid(a01225ba19564fd42bce060425dd0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Orange).mat using Guid(a01225ba19564fd42bce060425dd0e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bfd8a7dbfd0a5c6d72449f8c921ec4') in 0.027013 seconds
-  Import took 0.030066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000460 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Yellow).mat
-  artifactKey: Guid(04cc37a467418b84cadbd966dacd5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Yellow).mat using Guid(04cc37a467418b84cadbd966dacd5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e006f92396c5ab3070569c503fc663de') in 0.026649 seconds
-  Import took 0.030243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Silver).mat
-  artifactKey: Guid(44467822a7303cb43940da0138725649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Silver).mat using Guid(44467822a7303cb43940da0138725649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3fc7c05b4f85e3ccc49033933e0e42') in 0.022495 seconds
-  Import took 0.026536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Red).mat
-  artifactKey: Guid(0c034c10dd3cab04fbd2b24dcb41f977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Red).mat using Guid(0c034c10dd3cab04fbd2b24dcb41f977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f84fe4dd79fe45abee3fdb7527c27dd') in 0.028104 seconds
-  Import took 0.032291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Blue).mat
-  artifactKey: Guid(2e56ba176ee240e4898425144b82de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Blue).mat using Guid(2e56ba176ee240e4898425144b82de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1546ff39424ffb13532c481892e6cb31') in 0.024832 seconds
-  Import took 0.029279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Orange).mat
-  artifactKey: Guid(608e6c194cc44bd45a67d126de909a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Orange).mat using Guid(608e6c194cc44bd45a67d126de909a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d56e01239f21d6d689536b18d900c80') in 0.023938 seconds
-  Import took 0.026949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Red).mat
-  artifactKey: Guid(966be7aad6274344a85699d4bd836cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Red).mat using Guid(966be7aad6274344a85699d4bd836cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04072608873d3f12755431dd9be35234') in 0.022331 seconds
-  Import took 0.025315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Furniture Pack/blend/stool-round.blend
-  artifactKey: Guid(a5cc1a836dc9b644e846013bf90111a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture Pack/blend/stool-round.blend using Guid(a5cc1a836dc9b644e846013bf90111a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97095e054af571429ff432de54dd0cd3') in 0.036703 seconds
-  Import took 0.039907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Green).mat
-  artifactKey: Guid(489fc083fc6b46b4a8352595882e5362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Green).mat using Guid(489fc083fc6b46b4a8352595882e5362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5ac8dbc91be5d34c16b822dad9429e') in 0.021663 seconds
-  Import took 0.024894 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Bulb).mat
-  artifactKey: Guid(0ab4c9531559aa344bad5e64857a1d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Lamp/Materials/Lamp (Bulb).mat using Guid(0ab4c9531559aa344bad5e64857a1d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41948570c715327b2a99ed9c736613a0') in 0.015404 seconds
-  Import took 0.018626 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Purple).mat
-  artifactKey: Guid(51490ad06b293694f8901e669f17712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Office Essentials Pack/Assets/Whiteboard Magnet/Materials/Magnet (Purple).mat using Guid(51490ad06b293694f8901e669f17712f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cd75f0dc3deaf80bd8438af74c7087') in 0.020835 seconds
-  Import took 0.024301 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000921 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278E9708CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9C5A5A0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAC7D140 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAC7D140 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBA012A0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53BF020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ECC45020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAEF950 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED986030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8CE2020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB94CBA0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB8F34C0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBD37090 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
+- Completed reload, in  0.903 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.7 MB.
-System memory in use after: 78.8 MB.
+System memory in use before: 63.4 MB.
+System memory in use after: 63.4 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 2.966100 ms (FindLiveObjects: 0.201800 ms CreateObjectMapping: 0.068500 ms MarkObjects: 2.614400 ms  DeleteObjects: 0.080000 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1727.
+Total: 1.974600 ms (FindLiveObjects: 0.205100 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.616600 ms  DeleteObjects: 0.107000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001006 seconds.
+Registered in 0.000875 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278EDB19630 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8CEBE50 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBADF670 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBADF670 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8D85060 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB512010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBBD08B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED6805C0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED7E3020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAEF950 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB94CBA0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8D85060 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBD37090 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.7 MB.
-System memory in use after: 78.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1773.
-Total: 2.756500 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.457900 ms  DeleteObjects: 0.078500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001359 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278EBD65010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A59FB07D0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9755010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9755010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB9CD010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E98EE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED75FEC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAEF950 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED660030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E98EE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAAA4050 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB29640 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB8B4F90 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.051 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.7 MB.
-System memory in use after: 78.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1775.
-Total: 2.186000 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.056100 ms MarkObjects: 1.713100 ms  DeleteObjects: 0.070200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001434 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278EBD65010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9A891E0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EC138CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EC138CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E56C2C40 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB7C4F50 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED75FEC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EC138CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED660030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E98EE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAAA4050 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E56C2C40 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDF75010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1874,270 +456,140 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.088 seconds
+- Completed reload, in  0.948 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.8 MB.
-System memory in use after: 78.9 MB.
+System memory in use before: 63.4 MB.
+System memory in use after: 63.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1777.
-Total: 3.442000 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.081600 ms MarkObjects: 2.962300 ms  DeleteObjects: 0.084600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1729.
+Total: 1.770100 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.464800 ms  DeleteObjects: 0.058600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.122088 seconds.
+  path: Assets/Scripts/Dimensions.cs
+  artifactKey: Guid(b8f7e570543cafc42bcf0700214ef5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dimensions.cs using Guid(b8f7e570543cafc42bcf0700214ef5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d252b17ce0ec7736791793a79f374b') in 0.013519 seconds
+  Import took 0.015764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.445485 seconds.
+  path: Assets/Scripts/TimeController.cs
+  artifactKey: Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeController.cs using Guid(c4b06855a91311745bc26108f0b67c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6112c1d425da889bcc31a6a8ffa052eb') in 0.003204 seconds
+  Import took 0.005322 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001061 seconds.
+Registered in 0.001016 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278EBD65010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ECCD6060 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAA90030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAA90030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8D85060 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB43290 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBBD08B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBADF670 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9164010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAEF950 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED86D8E0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED1370A0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8D85060 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED09C010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
+- Completed reload, in  1.105 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.8 MB.
-System memory in use after: 78.9 MB.
+System memory in use before: 63.4 MB.
+System memory in use after: 63.5 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1779.
-Total: 2.094600 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.802400 ms  DeleteObjects: 0.057400 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1731.
+Total: 2.339800 ms (FindLiveObjects: 0.190700 ms CreateObjectMapping: 0.059200 ms MarkObjects: 2.024500 ms  DeleteObjects: 0.063600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.822896 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fee84bc254727b17fcedfa64b81be3') in 0.428276 seconds
+  Import took 0.431257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.051635 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2b15e2eb205edef4a50023185d554c') in 0.013145 seconds
+  Import took 0.016039 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001576 seconds.
+Registered in 0.000821 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278E9708CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB809A40 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDFE3020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDFE3020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAF7960 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EA90B020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBBD08B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDFE3020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E9164010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB21640 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED1370A0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAF7960 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED09C010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
+- Completed reload, in  0.878 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.8 MB.
-System memory in use after: 78.9 MB.
+System memory in use before: 66.5 MB.
+System memory in use after: 66.6 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1781.
-Total: 3.746800 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.124300 ms MarkObjects: 3.163100 ms  DeleteObjects: 0.108900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1742.
+Total: 1.832400 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.570000 ms  DeleteObjects: 0.053300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.303854 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(501de0ccd7ba43740a67c4845f3fa37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527128c9992e273e30c86ce21ac073c7') in 0.067671 seconds
+  Import took 0.070561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 213.468331 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011b149cad58fb202630526d8a081285') in 0.009128 seconds
+  Import took 0.012231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000978 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011b149cad58fb202630526d8a081285') in 0.003488 seconds
+  Import took 0.005807 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001071 seconds.
+Registered in 0.000776 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000278E9708CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED689E50 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBADF670 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBADF670 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED023510 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB861AE0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB50080 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB21640 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAC7D140 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EB861AE0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED86D8E0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E4ECA040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E50F1030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED996040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
+- Completed reload, in  0.846 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.9 MB.
-System memory in use after: 79.0 MB.
+System memory in use before: 66.6 MB.
+System memory in use after: 66.6 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1783.
-Total: 2.682400 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.148100 ms  DeleteObjects: 0.099700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000873 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278E9708CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EC142AF0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E93F6010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E93F6010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8D85060 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB43290 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB50080 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E93F6010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EAC7D140 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB43290 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53D53B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E4ECA040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E8D85060 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED09C010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.9 MB.
-System memory in use after: 79.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1785.
-Total: 5.006800 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.226700 ms MarkObjects: 4.517200 ms  DeleteObjects: 0.074500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000871 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000278E9708CC0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027A59FB07D0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBB5C020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBB5C020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EEA1E020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EA90B020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB50080 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EDB21640 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED7E3020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EA90B020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED86D8E0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278ED1370A0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278EBAF7960 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000278E53AF010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.241 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.9 MB.
-System memory in use after: 79.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1787.
-Total: 2.274400 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.112800 ms MarkObjects: 1.807600 ms  DeleteObjects: 0.085800 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1745.
+Total: 1.929700 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.655100 ms  DeleteObjects: 0.107700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
