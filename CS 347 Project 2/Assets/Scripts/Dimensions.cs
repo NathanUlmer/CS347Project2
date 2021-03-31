@@ -42,8 +42,6 @@ public class Dimensions : MonoBehaviour
         set{charge += value;}
     }
 
-
-    
 // Required Objects
     public Rigidbody rb;
     public Transform tf;
@@ -56,9 +54,11 @@ public class Dimensions : MonoBehaviour
     public float maxLength;
     public float maxTemp;
     public float maxCharge;
+
     // Start is called before the first frame update
     void Start()
     {
+
         rb = this.GetComponent<Rigidbody>();
         tf = this.GetComponent<Transform>();
         player = GameObject.Find("PlayerObject");
@@ -70,6 +70,7 @@ public class Dimensions : MonoBehaviour
         this.maxLength = 2;
         this.maxTemp = 10;
         this.maxCharge = 10;
+
     }
 
     void Update()

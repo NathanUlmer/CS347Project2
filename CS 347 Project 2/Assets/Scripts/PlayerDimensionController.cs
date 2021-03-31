@@ -40,6 +40,14 @@ public class PlayerDimensionController : MonoBehaviour
     public Material OriginalMaterial;
     public Material hitMaterial;
     public ParticleSystem mParicles;
+
+    //HUD Controllers
+    public MassBarController massBar;
+    public SizeBarController sizeBar;
+    public TimeBarController timeBar;
+    public ChargeBarController chargeBar;
+    public TempBarController tempBar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +62,16 @@ public class PlayerDimensionController : MonoBehaviour
         SwitchAbilityDir = KeyCode.LeftShift;
         abilityDir = 1;
         selectedAbility = Abilities.None;
+
+        var mdim = this.GetComponent<Dimensions>();
+
+        //HUD Handler
+        massBar.SetMaxMass(mdim.maxMass);
+        sizeBar.SetMaxSize(mdim.maxLength);
+        timeBar.SetMaxTime(4f);
+        chargeBar.SetMaxCharge(mdim.maxCharge);
+        tempBar.SetMaxTemp(mdim.maxTemp);
+
     }
 
     // Update is called once per frame
@@ -141,7 +159,7 @@ public class PlayerDimensionController : MonoBehaviour
             var dim = hit.collider.gameObject.GetComponent<DimensionsExt>();
             var mdim = this.GetComponent<Dimensions>();
 
-            if(Input.GetKeyDown(GrabAbility) || Input.GetButtonDown("Fire1"))
+            if (Input.GetKeyDown(GrabAbility) || Input.GetButtonDown("Fire1"))
             {
                 this.lastGrabbed = this.lastLookedAt;
                 var trans = hit.collider.gameObject.GetComponent<Transform>();
@@ -182,17 +200,19 @@ public class PlayerDimensionController : MonoBehaviour
             {
                 case Abilities.Mass:
                     //Debug.Log("USE MASS");
-                    if((abilityDir>0 && mdim.rb.mass > MassTransferAmount) ||(abilityDir<0 && mdim.rb.mass < mdim.maxMass + MassTransferAmount) ) {
+                    if((abilityDir>0 && mdim.rb.mass > MassTransferAmount) || (abilityDir<0 && mdim.rb.mass < mdim.maxMass + MassTransferAmount) ) {
                         dim.Mass = MassTransferAmount*abilityDir;
                         mdim.Mass = MassTransferAmount*abilityDir*-1;
-                     }
-                    
+                        massBar.SetMass(mdim.rb.mass);
+                    }
                     break;
+
                 case Abilities.Length:
                     //Debug.Log("USE LENGTH");   
-                    if((abilityDir>0 && mdim.tf.localScale.x > LengthTransferAmount) ||(abilityDir<0 && mdim.tf.localScale.x < mdim.maxLength + LengthTransferAmount) ) {
+                    if((abilityDir>0 && mdim.tf.localScale.x > LengthTransferAmount) || (abilityDir<0 && mdim.tf.localScale.x < mdim.maxLength + LengthTransferAmount) ) {
                         dim.Length = LengthTransferAmount*abilityDir;
                         mdim.Length = LengthTransferAmount*abilityDir*-1;
+                        sizeBar.SetSize(mdim.tf.localScale.x);
                     }
                     break;
 
@@ -202,15 +222,17 @@ public class PlayerDimensionController : MonoBehaviour
 
                         dim.time = TimeTransferAmount*abilityDir;
                         mdim.time = TimeTransferAmount*abilityDir*-1;
+                        timeBar.SetTime(Time.timeScale);
                     
                     break;
 
                 case Abilities.Temp:
                     //Debug.Log("USE TEMP");  
-                    if((abilityDir>0 && mdim.Temp > -mdim.maxTemp + TempTransferAmount) ||(abilityDir<0 && mdim.Temp < mdim.maxTemp +  TempTransferAmount) ) {
+                    if((abilityDir>0 && mdim.Temp > -mdim.maxTemp + TempTransferAmount) || (abilityDir<0 && mdim.Temp < mdim.maxTemp +  TempTransferAmount) ) {
                         Debug.Log("ChangeTemp");
                         dim.Temp = TempTransferAmount*abilityDir;
                         mdim.Temp = TempTransferAmount*abilityDir*-1;
+                        tempBar.SetTemp(mdim.Temp);
                     }
                     break;
 
@@ -219,6 +241,7 @@ public class PlayerDimensionController : MonoBehaviour
                     if((abilityDir>0 && mdim.Charge > -mdim.maxCharge + ChargeTransferAmount) ||(abilityDir<0 && mdim.Charge < mdim.maxCharge + ChargeTransferAmount) ) {
                         dim.Charge = ChargeTransferAmount*abilityDir;
                         mdim.Charge = ChargeTransferAmount*abilityDir*-1;
+                        chargeBar.SetCharge(mdim.Charge);
                     }
                     break;
                 case Abilities.None:
