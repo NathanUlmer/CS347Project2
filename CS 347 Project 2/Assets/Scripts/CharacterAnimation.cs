@@ -5,11 +5,12 @@ using UnityEngine;
 public class CharacterAnimation : MonoBehaviour
 {
 private Animator anim;
-
+public AudioSource audsrc;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent <Animator> ();
+        audsrc = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,6 +22,7 @@ private Animator anim;
         if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D))
         {
             anim.CrossFade("Running", .2f);
+            audsrc.Play();
         }
 
         //running animation
@@ -40,6 +42,7 @@ private Animator anim;
         {
             anim.SetBool("isStanding", true);
             anim.SetBool("isRunning", false);
+            audsrc.Stop();
         }
 
         //Jumping Animation

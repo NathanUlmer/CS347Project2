@@ -147,8 +147,9 @@ public class PlayerDimensionController : MonoBehaviour
 
         if(hit.collider!=null &&hit.collider.gameObject.GetComponent<DimensionsExt>())
         {
+            
             this.thingLookingAt = hit.collider.gameObject;
-            this.lastLookedAt = this.thingLookingAt;
+            if(this.lastLookedAt == null) this.lastLookedAt = this.thingLookingAt;
             //Debug.Log(hit.collider.gameObject);
             if(OriginalMaterial == null) {
                 //Debug.Log("SET MATERIAL");
@@ -264,7 +265,7 @@ public class PlayerDimensionController : MonoBehaviour
             Rigidbody llRb = this.lastGrabbed.GetComponent<Rigidbody>();
             llRb.constraints = RigidbodyConstraints.None;
             llRb.isKinematic = false;
-            llRb.velocity = transform.forward * 10;
+            llRb.velocity = camera.transform.forward * 10;
             llRb.velocity += transform.up * 1.2f;
             
             
@@ -277,11 +278,12 @@ public class PlayerDimensionController : MonoBehaviour
 
         }
 
-        if(this.lastLookedAt !=null && this.thingLookingAt == null && OriginalMaterial != null)
+        if(this.lastLookedAt !=null && this.thingLookingAt != this.lastLookedAt && OriginalMaterial != null)
         {
             //Debug.Log("TRYING TO CHANGE MAT");
             this.lastLookedAt.GetComponent<Renderer>().material = OriginalMaterial;
             OriginalMaterial = null;
+            this.lastLookedAt = null;
         }
 
 
