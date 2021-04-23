@@ -1,0 +1,288 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.3f1 (8ff31bc5bf5b) revision 9433883'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.867; Version 2009; 64bit' Language: 'en' Physical Memory: 16268 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\Unity\2020.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51695
+Successfully changed project path to: C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2
+C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/quaz9/Documents/MAE 490/CS347Project2/CS 347 Project 2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1ba1)
+    Vendor:   
+    VRAM:     8082 MB
+    Driver:   27.21.14.6079
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/Unity/2020.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001836 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.846 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001138 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000017BF7D42AF0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFCADF640 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFD8E7020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFD8E7020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF84AC800 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC424620 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC9BC020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFCE5AA20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF7CED010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFCE5AA20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC9E9E30 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF84AC800 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF84AC800 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFCD8F010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1264 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.4 MB.
+System memory in use after: 63.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1707.
+Total: 3.485900 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.073800 ms MarkObjects: 2.980700 ms  DeleteObjects: 0.182400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Models/human.blend
+  artifactKey: Guid(6e2b548447ee04441a731c99747db706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/human.blend using Guid(6e2b548447ee04441a731c99747db706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5b53f35c6b7184e6c9a1a56dc56543') in 0.766751 seconds
+  Import took 0.770010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000897 seconds.
+  path: Assets/Models/player2.fbx
+  artifactKey: Guid(8d841a90f85256a41bb89da35aab4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/player2.fbx using Guid(8d841a90f85256a41bb89da35aab4428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a76b3e32f541c9c659562efb54de47a') in 0.096084 seconds
+  Import took 0.100216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Models
+  artifactKey: Guid(759bb9da831d80e4d95d253b51c47e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(759bb9da831d80e4d95d253b51c47e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac742e619756160dae6c7aab8cee1d7') in 0.009911 seconds
+  Import took 0.012812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 339.429065 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93523008bf5e72c8d4a10b4b4132f2d2') in 0.018556 seconds
+  Import took 0.023014 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001073 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000017BFDA29010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFD735E50 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF7D57000 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF7D57000 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFD108040 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BCD4955C0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFCE78020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFDBD4010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF7B9B020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BCD4955C0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC379020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFF681330 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFF681330 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFE86A010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1259 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.0 MB.
+System memory in use after: 78.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1754.
+Total: 2.385100 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.947800 ms  DeleteObjects: 0.073000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001429 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000017BFF02F050 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFEDEE420 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFF04B8B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFF04B8B0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFF1F4830 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFD72C020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF80EE000 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC8A1030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF7B9B020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFD72C020 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC343030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFEBC6E70 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFECBCC00 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFEA5EE20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.064 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.9 MB.
+System memory in use after: 78.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1756.
+Total: 2.487700 ms (FindLiveObjects: 0.175500 ms CreateObjectMapping: 0.042500 ms MarkObjects: 2.211300 ms  DeleteObjects: 0.055900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000878 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000017BFD567010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFECB6BB0 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC685010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFC685010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFECB0D50 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF8615E50 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF80EE000 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFE0BC010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFEB09F10 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFE4AE010 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFEA5EE20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFEB81500 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BF860EA20 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017BFF6BE030 doesn't match image C:\Users\quaz9\Documents\MAE 490\CS347Project2\CS 347 Project 2\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.928 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1258 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.0 MB.
+System memory in use after: 78.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1758.
+Total: 2.728900 ms (FindLiveObjects: 0.450500 ms CreateObjectMapping: 0.123800 ms MarkObjects: 2.095700 ms  DeleteObjects: 0.057400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
